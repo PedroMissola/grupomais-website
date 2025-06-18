@@ -43,12 +43,6 @@ export default function Navbar() {
               Home
             </Link>
           </li>
-          <li>
-            <Link href="/about" className="hover:text-blue-600 transition-colors">
-              Sobre Nós
-            </Link>
-          </li>
-          
           {/* Dropdown de Produtos */}
           <li className="relative hidden lg:block" ref={dropdownRef}>
             <button

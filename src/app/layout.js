@@ -14,31 +14,38 @@ export const viewport = {
 
 export const metadata = {
   title: {
-    default: "Churchment - Gestão de Igrejas Moderna e Simples",
-    template: "%s | Churchment",
+    default: "MAS Produtos - Soluções em Vedações Industriais",
+    template: "%s | MAS Produtos",
   },
-  description: "O Churchment é uma plataforma moderna e completa para gestão de igrejas.",
+  description:
+    "A MAS Produtos é especialista em soluções de vedação industrial, atuando há mais de 14 anos com fabricação e serviços de selos mecânicos, buchas hidroespelidoras, protetores de mancais, acoplamentos e juntas.",
   keywords: [
-    "Churchment",
-    "gestão de igrejas",
-    "plataforma para igrejas",
-    "eventos da igreja",
-    "ministérios",
+    "MAS Produtos",
+    "vedações industriais",
+    "selos mecânicos",
+    "buchas hidroespelidoras",
+    "protetores de mancais",
+    "juntas PTFE",
+    "acoplamentos flexíveis",
+    "gaxetas",
+    "manutenção industrial",
+    "equipamentos industriais",
   ],
-  authors: [{ name: "Churchment", url: "https://churchment.vercel.app/" }],
-  creator: "Churchment",
-  metadataBase: new URL("https://churchment.vercel.app/"),
+  authors: [{ name: "MAS Produtos", url: "https://grupomas.com.br" }],
+  creator: "MAS Produtos - Grupo MAS",
+  metadataBase: new URL("https://grupomas.com.br"),
   openGraph: {
-    title: "Churchment - Gestão de Igrejas Moderna e Simples",
-    description: "O Churchment é uma plataforma moderna e completa para gestão de igrejas.",
-    url: "https://churchment.vercel.app/",
-    siteName: "Churchment",
+    title: "MAS Produtos - Soluções em Vedações Industriais",
+    description:
+      "Soluções em vedação industrial com selos mecânicos, buchas hidroespelidoras, acoplamentos e serviços especializados. Mais de 14 anos de experiência.",
+    url: "https://grupomas.com.br",
+    siteName: "MAS Produtos",
     images: [
       {
-        url: "https://churchment.vercel.app/opengraph-image.png",
+        url: "https://grupomas.com.br/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Imagem representando o Churchment",
+        alt: "Logo da MAS Produtos - Soluções em Vedações Industriais",
       },
     ],
     locale: "pt_BR",
@@ -46,17 +53,19 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Churchment - Gestão de Igrejas",
-    description: "Organize sua igreja de forma moderna com o Churchment.",
-    images: ["https://churchment.vercel.app/opengraph-image.jpg"],
-    creator: "@churchment",
+    title: "MAS Produtos - Vedações Industriais",
+    description:
+      "Selos mecânicos, juntas, acoplamentos e soluções industriais com qualidade e confiança.",
+    images: ["https://grupomas.com.br/opengraph-image.jpg"],
+    creator: "@grupomas", // caso exista uma conta oficial
   },
   icons: {
-    icon: "icon/favicon.ico",
-    apple: "icon/apple-touch-icon.png",
+    icon: "/icon/favicon.ico",
+    apple: "/icon/apple-touch-icon.png",
   },
-  manifest: "icon/site.webmanifest",
+  manifest: "/icon/site.webmanifest",
 };
+
 
 export default function RootLayout({ children }) {
   return (

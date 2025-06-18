@@ -9,13 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tinymce/tinymce-react": "^6.2.1",
     "dotenv": "^16.5.0",
     "firebase-admin": "^13.4.0",
     "framer-motion": "^12.18.1",
     "lucide-react": "^0.517.0",
+    "mapbox-gl": "^3.13.0",
     "next": "15.3.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-map-gl": "^8.0.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

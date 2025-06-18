@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MAS Produtos – Website Oficial
 
-## Getting Started
+[![Deploy na Vercel](https://img.shields.io/badge/deploy-Vercel-black?logo=vercel)](https://grupomas.com.br)
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-First, run the development server:
+Website institucional oficial do Grupo MAS Produtos, desenvolvido com **Next.js**, **React** e **TailwindCSS**, com deploy contínuo e domínio conectado via **Vercel**:  
+🔗 [grupomas.com.br](https://grupomas.com.br)
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+- [Next.js 14+ (App Router)](https://nextjs.org/)
+- [React 18](https://react.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/) (deploy e hospedagem)
+
+
+---
+
+## 🚀 Como Rodar Localmente
 
 ```bash
+# Instalar dependências
+npm install
+
+# Rodar o projeto localmente
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse em `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Domínio e Hospedagem
 
-## Learn More
+* **Domínio**: [grupomas.com.br](https://grupomas.com.br) (registrado na locaweb)
+* **Deploy automático**: Vercel, integrado com Git
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧩 Funcionalidades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Interface responsiva e moderna
+* Sessão de produtos organizados por categoria
+* Página de contato com envio funcional (em progresso)
+* Otimização para performance (Core Web Vitals)
+* SEO técnico planejado com estrutura semântica e metas
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Em Desenvolvimento
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Acessibilidade (WCAG)
+* Schema markup (para rich results)
+* Painel administrativo leve (futuro)
+
+---
+
+## 📝 Licença
+
+Distribuído sob licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+---
+
+## 👨‍💻 Desenvolvedor
+
+Pedro Missola
+📧 [missolapedro@gmail.com](mailto:missolapedro@gmail.com)

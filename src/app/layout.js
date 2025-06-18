@@ -1,7 +1,7 @@
 import "./globals.css";
 import { inter, firaCode } from "./fonts";
 import { GoogleAnalyticsTracker } from "@/app/analytics";
-import Footer from "@/components/footer";
+// import Footer from "@/components/footer";
 import Script from "next/script";
 
 export const viewport = {
@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
       <body>
         <GoogleAnalyticsTracker />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

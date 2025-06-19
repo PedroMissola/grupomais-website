@@ -1,16 +1,23 @@
 'use client';
 
 import { useState } from 'react';
-import Input from '../input';
+import Input from '../../Input';
 import RichTextEditor from '../textEditor';
 
 export default function ContactForm() {
   const [message, setMessage] = useState('');
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Aqui você teria que converter o editorState para HTML
+    // ou enviar o estado bruto para o backend
+    console.log('Mensagem:', message);
+  };
+
   return (
-    <section className="bg-gray-50 p-8 rounded-xl shadow-md">
+    <section className="border-[1px] border-neutral-100 p-8 rounded-2xl">
       <h2 className="text-2xl font-semibold mb-6">Envie uma mensagem</h2>
-      <form className="space-y-6">
+      <form className="space-y-6" onSubmit={handleSubmit}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Input 
             id="name"

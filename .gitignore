@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Não faz parte do projeto
+src/app/dashboard
+src/api/produtos

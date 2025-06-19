@@ -22,4 +22,30 @@ if (!admin.apps.length) {
 const db = admin.firestore();
 const FieldValue = admin.firestore.FieldValue;
 
-export { db, admin, FieldValue };
+const firestore = {
+  getCollection: async (name) => {
+    const snapshot = await db.collection(name).get();
+    return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+  },
+  
+  getDocument: async (collection, id) => {
+    const docRef = db.collection(collection).doc(id);
+    const docSnap = await docRef.get();
+    return docSnap.exists() ? { id: docSnap.id, ...docSnap.data() } : null;
+  },
+  
+  createDocument: async (collection, data) => {
+    const docRef = await db.collection(collection).add(data);
+    return docRef.id;
+  },
+  
+  updateDocument: async (collection, id, data) => {
+    await db.collection(collection).doc(id).set(data, { merge: true });
+  },
+  
+  deleteDocument: async (collection, id) => {
+    await db.collection(collection).doc(id).delete();
+  }
+};
+
+export { db, admin, FieldValue, firestore };

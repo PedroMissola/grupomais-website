@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
           <Image
-            src="/logo.webp"
+            src="/logos/logo.webp"
             alt="Logo da Empresa"
             width={250}
             height={125}

@@ -1,7 +1,7 @@
 'use client';
 
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
+import Navbar from '../components/ui/navbar';
+import Footer from '../components/ui/footer';
 import MapComponent from '../components/contact/map';
 import ContactForm from '../components/contact/contactForm';
 

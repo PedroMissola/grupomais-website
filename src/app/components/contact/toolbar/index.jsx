@@ -1,11 +1,10 @@
 'use client';
 
 import { 
-  FORMAT_TEXT_COMMAND,
-  INSERT_ORDERED_LIST_COMMAND,
-  INSERT_UNORDERED_LIST_COMMAND,
-  $createHeadingNode
-} from '@lexical/rich-text'; // Importação corrigida
+  FORMAT_TEXT_COMMAND, 
+  INSERT_ORDERED_LIST_COMMAND, 
+  INSERT_UNORDERED_LIST_COMMAND 
+} from 'lexical'; // Use 'lexical' em vez de '@lexical/rich-text'
 import { $getSelection, $isRangeSelection, $createParagraphNode } from 'lexical';
 import { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext';
 

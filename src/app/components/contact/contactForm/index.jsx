@@ -65,7 +65,7 @@ export default function ContactForm() {
 
     try {
       // CORREÇÃO: Usar caminho absoluto para a API
-      const response = await fetch('/api/contact', {
+      const response = await fetch('/api/contato', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

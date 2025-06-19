@@ -1,17 +1,277 @@
 export const produtos = [
   {
-    slug: "protetores-de-mancal",
-    nome: "Protetores de Mancal",
-    descricao: "Vedação e proteção confiável para mancais industriais.",
-    imagem: "protetores-de-mancal.jpg",
+    slug: "selo-mecanico-f02-f12-f13",
+    nome: "Selo Mecânico Modelo F02 / F12 / F13",
+    descricao: "Componentes de fole de borracha, não balanceados hidraulicamente, para vedação confiável.",
+    imagem: "selos-f02-f12-f13.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
-        texto: "Os protetores de mancal LTEC foram desenvolvidos com a mais alta tecnologia em equipamentos de vedação. Projetados para aplicações em mancais rotativos, com eficiência comprovada, eleva consideravelmente a vida útil dos rolamentos."
+        texto: "São selos componentes de fole de borracha, não balanceados hidraulicamente, independentes do sentido de rotação dos equipamentos, com compensação através de mola única tipo paralela."
       },
       {
         tipo: "paragrafo",
-        texto: "Fabricados em Inox/Polímero, são totalmente anticentelhante, substituem os tradicionais retentores, eliminando qualquer tipo de vazamento de óleo lubrificante e impedindo a penetração de resíduos contaminantes do meio externo."
+        texto: "Possuem vedações secundárias por meio de fole elastomérico e anel o’ring/copo na parte estacionária, com partes metálicas em aço inoxidável."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Limites operacionais: tamanhos de 10 a 100 mm, pressão até 12 bar, temperatura entre -20°C e +120°C, velocidade periférica até 10 m/s."
+      }
+    ]
+  },
+  {
+    slug: "selo-mecanico-modelo-c",
+    nome: "Selo Mecânico Modelo C",
+    descricao: "Componente de mola tipo cônica, dependente do sentido de rotação, para vedação eficiente.",
+    imagem: "selos-modelo-c.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Selo componente de mola tipo cônica, não balanceado hidraulicamente e dependente do sentido de rotação dos equipamentos."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Compensação feita por mola única cônica, vedações secundárias com anéis o’ring e partes metálicas em aço inoxidável."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Limites operacionais: tamanhos de 14 a 80 mm, pressão até 10 bar, temperatura de -20°C a +180°C, velocidade periférica até 10 m/s."
+      }
+    ]
+  },
+  {
+    slug: "selo-mecanico-p21",
+    nome: "Selo Mecânico Modelo P21",
+    descricao: "Selo de fole de borracha com compensação paralela, para vedação robusta e confiável.",
+    imagem: "selos-p21.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Selo mecânico componente de fole de borracha, não balanceado hidraulicamente, independente do sentido de rotação."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Compensação através de mola única paralela, com vedações secundárias por fole elastomérico e anel o’ring/copo na estacionária, partes metálicas em aço inoxidável."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Limites operacionais: tamanhos de 12,7 (0.500”) a 76,2 mm (3.000”), pressão até 10 bar, temperatura entre -20°C e +120°C, velocidade periférica até 10 m/s."
+      }
+    ]
+  },
+  {
+    slug: "selo-mecanico-mm",
+    nome: "Selo Mecânico Modelo MM",
+    descricao: "Selo componente com faces de selagem não balanceadas, múltiplas molas, para alta confiabilidade.",
+    imagem: "selos-mm.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Selo mecânico componente com faces de selagem não balanceadas hidraulicamente, independente do sentido de rotação."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Compensação por múltiplas molas, vedações secundárias com anéis o’ring, partes metálicas em aço inoxidável."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Limites operacionais: tamanhos de 16 a 220 mm (acima de 100 mm sob consulta), pressão até 16 bar, temperatura de -20°C a +220°C, velocidade periférica até 20 m/s."
+      }
+    ]
+  },
+  {
+    slug: "selo-mecanico-fgt05",
+    nome: "Selo Mecânico Modelo FGT05",
+    descricao: "Selo componente para bombas submersas, com molas cônicas e múltiplas opções de compensação.",
+    imagem: "selos-fgt05.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Componente não balanceado hidraulicamente, independente do sentido de rotação, compensação por mola única cônica ou múltiplas molas conforme projeto."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Vedações secundárias por anéis o’ring e anel tipo copo na estacionária, partes metálicas em aço inoxidável."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Desenvolvido para bombas submersas de fabricantes como Flygt, ABS/Sulzer, KSB/KRT, Ebara, entre outros."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Limites operacionais: tamanhos de 10 a 150 mm, pressão até 10 bar, temperatura de -20°C a +120°C, velocidade periférica até 10 m/s."
+      }
+    ]
+  },
+  {
+    slug: "selo-mecanico-6f02ae",
+    nome: "Selo Mecânico Modelo 6-F02AE",
+    descricao: "Componente de fole de borracha para bombas autoescorvantes, com compensação paralela.",
+    imagem: "selos-6-f02ae.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Selo componente de fole de borracha, não balanceado hidraulicamente, independente do sentido de rotação."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Compensação por mola única paralela, vedações secundárias por fole elastomérico e anel o’ring/copo na estacionária, partes metálicas em aço inoxidável."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Desenvolvido para autoescorvantes dos fabricantes Imbil, Esco, Gorman Rupp, modelos E3, E4, E6, E8, E10, E12, T3, T4, T6, T8, T10, T12 e similares."
+      }
+    ]
+  },
+  {
+    slug: "selo-mecanico-mmp",
+    nome: "Selo Mecânico Modelo MMP",
+    descricao: "Selo componente balanceado hidraulicamente com múltiplas molas protegidas.",
+    imagem: "selos-mmp.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Componente balanceado hidraulicamente, independente do sentido de rotação, compensação por múltiplas molas “fora de contato com fluído vedado (protegidas)”."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Vedações secundárias por anéis o’ring, partes metálicas em aço inoxidável."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Pode ser fabricado com anel bombeador externo para Plano API 21 / 23."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Limites operacionais: tamanhos de 16 a 200 mm (acima de 100 mm sob consulta), pressão até 25 bar, temperatura de -20°C a +220°C, velocidade periférica até 20 m/s."
+      }
+    ]
+  },
+  {
+    slug: "selo-cartucho-mtec-simples",
+    nome: "Selo Mecânico Cartucho MTEC Simples",
+    descricao: "Cartucho simples com duplo balanceamento hidráulico, fácil instalação e alta confiabilidade.",
+    imagem: "selos-mtec-simples.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Selo mecânico cartucho simples, unidade completa composta por luva do selo e sobreposta, com duplo balanceamento hidráulico das faces de selagem."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Independente do sentido de rotação, compensação por múltiplas molas fora do contato com o fluido vedado."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Vedações secundárias por anéis o’ring, com 3 portas para interligação dos planos de selagem para selos simples, partes metálicas em AISI 316."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Limites operacionais: tamanhos de 16 a 220 mm (acima de 100 mm sob consulta), pressão de vácuo (-28”Hg) a 20 bar, temperatura de -20°C a +180°C, velocidade periférica até 20 m/s."
+      }
+    ]
+  },
+  {
+    slug: "selo-cartucho-mtec-duplo",
+    nome: "Selo Mecânico Cartucho MTEC Duplo",
+    descricao: "Cartucho duplo com duplo balanceamento hidráulico, para aplicações robustas e seguras.",
+    imagem: "selos-mtec-duplo.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Selo mecânico cartucho duplo, unidade completa composta por luva do selo e sobreposta, com duplo balanceamento hidráulico das faces de selagem."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Independente do sentido de rotação, compensação por múltiplas molas fora do contato com fluido vedado."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Vedações secundárias por anéis o’ring, 3 portas para interligação dos planos de selagem para selos duplos, partes metálicas em AISI 316."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Limites operacionais: tamanhos de 16 a 220 mm (acima de 100 mm sob consulta), pressão de vácuo (-28”Hg) a 20 bar, temperatura de -20°C a +180°C, velocidade periférica até 20 m/s."
+      }
+    ]
+  },
+  {
+    slug: "selo-cartucho-cfm",
+    nome: "Selo Mecânico Cartucho CFM (Simples ou Duplo)",
+    descricao: "Cartucho com fole metálico, alta resistência térmica, conforme API 682.",
+    imagem: "selos-cfm.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Selo mecânico cartucho composto por luva do selo e sobreposta, com duplo balanceamento hidráulico, independente do sentido de rotação."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Compensação por fole metálico, vedações secundárias por anéis o’ring ou grafite expandido (graphoil), até 3 portas de conexão para interligações conforme API 682."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Materiais do fole: Hastelloy C 276, AM 350, Inconel 718 (recomendado pela API 682)."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Limites operacionais: tamanhos de 16 a 100 mm (acima de 100 mm sob consulta), pressão de vácuo (-28”Hg) a 25 bar, temperatura de -20°C a +400°C, velocidade periférica até 20 m/s."
+      }
+    ]
+  },
+  {
+    slug: "selo-cartucho-mtec-reator",
+    nome: "Selo Mecânico Cartucho MTEC R ESP (Simples ou Duplo)",
+    descricao: "Cartucho com ou sem rolamento, para agitadores, misturadores e reatores.",
+    imagem: "selos-mtec-r-esp.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Cartucho simples ou duplo, com ou sem rolamento, composto por luva do selo, montado entre flanges e copo em aço inoxidável chamado ‘castelo’."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Faces de selagem não balanceadas hidraulicamente, compensação por múltiplas molas protegidas."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Vedações secundárias por anéis o’ring, 2 portas de conexão para interligações e refrigeração, ideal para agitadores, misturadores e reatores químicos."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Limites operacionais: tamanhos de 30 a 220 mm (acima de 100 mm sob consulta), pressão de vácuo (-28”Hg) a 20 bar, temperatura de -20°C a +220°C, velocidade periférica até 10 m/s."
+      }
+    ]
+  },
+  {
+    slug: "sistema-selagem-termosifao",
+    nome: "Sistemas de Selagem e Termosifão",
+    descricao: "Sistemas auxiliares para garantir segurança e desempenho dos selos mecânicos.",
+    imagem: "sistemas-selagem.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Sistemas de selagem usados para melhorar a performance dos selos mecânicos, aumentando segurança operacional, confiabilidade e reduzindo custos."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Inclui termosifão exclusivo para operar com água como fluído barreira em Plano API 53 A, trocadores de calor para planos API 21 e 23 com conexões flangeadas ou roscadas."
+      }
+    ]
+  },
+  {
+    slug: "protetor-mancal-ltec",
+    nome: "Protetores de Mancal LTEC",
+    descricao: "Vedação avançada para mancais rotativos, substituindo retentores tradicionais.",
+    imagem: "protetores-ltec.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Desenvolvidos com alta tecnologia, projetados para mancais rotativos, aumentam a vida útil dos rolamentos."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Fabricados em inox/polímero, totalmente anticentelhante, eliminam vazamentos de óleo e graxa, impedem a entrada de resíduos contaminantes."
       },
       {
         tipo: "titulo",
@@ -20,11 +280,15 @@ export const produtos = [
       {
         tipo: "lista",
         itens: [
-          "Eliminação de vazamentos de óleo e graxa para atmosfera (> controle ambiental);",
-          "Aumento da confiabilidade e da vida útil do equipamento (> durabilidade dos rolamentos);",
-          "Trabalha solidário ao eixo, portanto NÃO desgasta o eixo por atrito como os retentores;",
-          "Redução de Custos de Manutenção."
+          "Eliminação de vazamentos para a atmosfera (melhor controle ambiental);",
+          "Aumento da confiabilidade e vida útil do equipamento;",
+          "Trabalha solidário ao eixo, não desgastando o eixo por atrito;",
+          "Redução de custos de manutenção."
         ]
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Especificações técnicas: material padrão inox x acetal ou bronze, rotação máxima 3500 m/min, tolerâncias de eixo e alojamento especificadas, temperatura -20°C a +120°C, pressão atmosférica, posicionamento vertical ou horizontal."
       }
     ],
     imagens: [
@@ -34,332 +298,195 @@ export const produtos = [
       "figura4.jpg"
     ],
     aplicacoes: [
-      {
-        titulo: "Mancais",
-        imagem: "mancais.jpg"
-      },
-      {
-        titulo: "Redutores de Velocidade",
-        imagem: "redutores.jpg"
-      },
-      {
-        titulo: "Motores Elétricos",
-        imagem: "motores.jpg"
-      },
-      {
-        titulo: "Bombas Centrífugas",
-        imagem: "bombas.jpg"
-      }
+      { titulo: "Mancais", imagem: "mancais.jpg" },
+      { titulo: "Redutores de Velocidade", imagem: "redutores.jpg" },
+      { titulo: "Motores Elétricos", imagem: "motores.jpg" },
+      { titulo: "Bombas Centrífugas", imagem: "bombas.jpg" }
     ]
   },
   {
-    slug: "selos-mecanicos",
-    nome: "Selos Mecânicos",
-    descricao: "Vedação precisa para equipamentos rotativos industriais.",
-    imagem: "selos-mecanicos.jpg",
+    slug: "bucha-hidroespelidora",
+    nome: "Buchas Hidroespelidoras",
+    descricao: "Sistema de vedação para caixa de gaxetas, substituindo anéis tradicionais.",
+    imagem: "buchas-hidroespelidoras.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
-        texto: "Os selos mecânicos são dispositivos usados para vedar o eixo rotativo de equipamentos como bombas, agitadores e reatores, impedindo o vazamento de fluidos durante a operação."
-      },
-      {
-        tipo: "paragrafo",
-        texto: "Existem diversos modelos, como os tipos F02, F12, C, P21, MM, MMP e MTEC (simples ou duplo), cada um com características específicas de pressão, temperatura e montagem, atendendo diferentes aplicações industriais."
-      },
-      {
-        tipo: "paragrafo",
-        texto: "Os selos podem ser em componente (rotativo separado do estacionário) ou cartucho (unidade montada e ajustada de fábrica), com opções de molas simples, múltiplas ou fole metálico, e diversos materiais como aço inoxidável e grafite expandido."
-      },
-      {
-        tipo: "titulo",
-        texto: "Principais Vantagens"
+        texto: "Instaladas no fundo da caixa de gaxetas, substituem anéis de gaxetas e o anel ‘lanterna/cadeado’ atrás do rotor."
       },
       {
         tipo: "lista",
         itens: [
-          "Redução de vazamentos e aumento da segurança operacional;",
-          "Alta resistência a pressão, temperatura e velocidade;",
-          "Facilidade de instalação nos modelos cartucho;",
-          "Maior durabilidade e menor necessidade de manutenção."
+          "Bucha em polímero auto lubrificante VCNT, não absorve líquidos, alta resistência à abrasão, temperatura até 100°C, rotação até 4000 rpm.",
+          "Cordão de gaxeta trançada GTK 1002, trançada de aramida com lubrificante, resistente à abrasão, velocidade periférica 25 m/s, temperatura 280°C, pressão até 25 bar.",
+          "Cordão de gaxeta trançada GTC 1000, carbono expandido flexível de alta pureza, reforçada com fios de grafite, temperatura até 500°C, velocidade periférica 22,8 m/s, pressão até 25 bar."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "acoplamento-flexivel",
+    nome: "Acoplamentos Flexíveis",
+    descricao: "Compensação de desalinhamentos e absorção de vibrações para equipamentos rotativos.",
+    imagem: "/produtos/acoplamentos-flexiveis.jpg",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Os acoplamentos flexíveis tipo Pneu Gummi da MAS são projetados para absorver vibrações e compensar desalinhamentos entre eixos, aumentando a vida útil dos equipamentos e melhorando a segurança operacional."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Existem vários modelos com diferentes características: tipo A, tipo BR, tipo ABP e tipo APW, cada um adequado para aplicações específicas, como alta rotação, alto torque e reversão, com tecnologia patenteada exclusiva MAS."
+      },
+      {
+        tipo: "titulo",
+        texto: "Principais Vantagens Técnicas"
+      },
+      {
+        tipo: "lista",
+        itens: [
+          "Fácil instalação;",
+          "Dispensa lubrificação;",
+          "Diversos modelos para diferentes aplicações;",
+          "Simetria que dispensa balanceamentos;",
+          "Certificado ISO 9001 e ATEX contra explosão;",
+          "Permite passeio axial do eixo na partida, aumentando a vida útil do motor e componentes;",
+          "Elemento elástico que atua como fusível em caso de torque excessivo, protegendo o equipamento."
         ]
       }
     ],
     imagens: [
-      "selos1.jpg",
-      "selos2.jpg",
-      "selos3.jpg",
-      "selos4.jpg"
+      "acoplamentos-tipo-a.jpg",
+      "acoplamentos-tipo-br.jpg",
+      "acoplamentos-tipo-abp.jpg",
+      "acoplamentos-tipo-apw.jpg"
     ],
     aplicacoes: [
       {
-        titulo: "Bombas Centrífugas",
-        imagem: "bombas.jpg"
+        titulo: "Acionamento de Moinho",
+        imagem: "acionamento-moinho.jpg"
       },
       {
-        titulo: "Agitadores",
-        imagem: "agitadores.jpg"
+        titulo: "Virador de Vagões",
+        imagem: "virador-vagoes.jpg"
       },
       {
-        titulo: "Reatores",
-        imagem: "reatores.jpg"
+        titulo: "Torre de Resfriamento – Eixo Flutuante",
+        imagem: "torre-resfriamento.jpg"
       },
       {
-        titulo: "Misturadores Industriais",
-        imagem: "misturadores.jpg"
+        titulo: "Exaustor Industrial",
+        imagem: "exaustor.jpg"
       }
     ]
   },
   {
-    slug: "sistemas-de-selagem",
-    nome: "Sistemas de Selagem",
-    descricao: "Apoio essencial para performance ideal dos selos mecânicos.",
-    imagem: "sistemas-de-selagem.jpg",
+    slug: "gaxeta-trancada",
+    nome: "Gaxetas Trançadas",
+    descricao: "Vedação eficiente para equipamentos rotativos em diversos segmentos industriais.",
+    imagem: "/produtos/gaxetas.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
-        texto: "Os sistemas de selagem são utilizados para auxiliar e garantir a boa performance dos selos mecânicos, proporcionando maior segurança operacional, confiabilidade aos equipamentos e redução de custos."
+        texto: "Oferecemos gaxetas trançadas de alta qualidade, como a GTC 1000, feita de carbono expandido flexível com reforço de grafite, ideal para bombas, misturadores, agitadores e válvulas em vários setores industriais."
       },
       {
         tipo: "paragrafo",
-        texto: "Compostos por termosifões e trocadores de calor, esses sistemas operam com diversos planos de selagem como API 21, 23, 52 e 53A. São essenciais para manter a refrigeração e o funcionamento correto dos selos em ambientes críticos."
+        texto: "Também comercializamos a GTP 2000, gaxeta de PTFE puro com lubrificante especial, indicada para indústrias químicas, farmacêuticas e alimentícias, onde a pureza e resistência à corrosão são essenciais."
       },
       {
         tipo: "titulo",
-        texto: "Principais Vantagens"
+        texto: "Características Principais"
       },
       {
         tipo: "lista",
         itens: [
-          "Aumentam a vida útil dos selos mecânicos;",
-          "Reduzem a necessidade de manutenção corretiva;",
-          "Melhoram a segurança e confiabilidade do processo;",
-          "Facilitam a operação contínua em equipamentos críticos."
+          "Ampla gama de aplicações industriais;",
+          "Baixo coeficiente de atrito e auto-lubrificante;",
+          "Pode ser usada com ou sem injeção de água de refrigeração (sob consulta);",
+          "Reduz necessidade de ajustes periódicos;",
+          "Menor desgaste de eixos e luvas comparado a gaxetas tradicionais;",
+          "Alta resistência a temperaturas e pressões variadas."
         ]
       }
     ],
     imagens: [
-      "selagem1.jpg",
-      "selagem2.jpg",
-      "selagem3.jpg"
+      "gaxeta-gtc1000.jpg",
+      "gaxeta-gtp2000.jpg"
     ],
     aplicacoes: [
       {
         titulo: "Bombas Industriais",
-        imagem: "bombas.jpg"
+        imagem: "aplicacao-bombas.jpg"
       },
       {
-        titulo: "Sistemas de Resfriamento",
-        imagem: "resfriamento.jpg"
+        titulo: "Misturadores e Agitadores",
+        imagem: "aplicacao-misturadores.jpg"
       },
       {
-        titulo: "Reatores Químicos",
-        imagem: "reatores.jpg"
-      },
-      {
-        titulo: "Equipamentos de Alta Pressão",
-        imagem: "pressao.jpg"
+        titulo: "Válvulas em Indústrias Químicas",
+        imagem: "aplicacao-valvulas.jpg"
       }
     ]
   },
   {
-    slug: "acoplamentos-flexiveis",
-    nome: "Acoplamentos Flexíveis",
-    descricao: "Absorção de vibração e desalinhamento em transmissões mecânicas.",
-    imagem: "acoplamentos-flexiveis.jpg",
-    conteudo: [
-      {
-        tipo: "paragrafo",
-        texto: "Os acoplamentos flexíveis da linha GUMMI são usados para conectar eixos rotativos, permitindo o desalinhamento e absorvendo vibrações e choques, o que protege os componentes mecânicos."
-      },
-      {
-        tipo: "paragrafo",
-        texto: "Disponíveis em diversos modelos (Tipo A, BR, ABP e APW), são ideais para diferentes aplicações, desde alta rotação até alto torque e reversão de movimento, com elementos elásticos que atuam como fusíveis mecânicos em caso de sobrecarga."
-      },
-      {
-        tipo: "titulo",
-        texto: "Principais Vantagens"
-      },
-      {
-        tipo: "lista",
-        itens: [
-          "Amortecimento de vibrações e choques;",
-          "Compensação de desalinhamentos;",
-          "Fácil instalação e manutenção;",
-          "Dispensa lubrificação;",
-          "Segurança mecânica com rompimento controlado do elemento elástico."
-        ]
-      }
-    ],
-    imagens: [
-      "acoplamento1.jpg",
-      "acoplamento2.jpg",
-      "acoplamento3.jpg"
-    ],
-    aplicacoes: [
-      {
-        titulo: "Correias Transportadoras",
-        imagem: "correias.jpg"
-      },
-      {
-        titulo: "Peneiras e Moinhos",
-        imagem: "peneiras.jpg"
-      },
-      {
-        titulo: "Motores e Redutores",
-        imagem: "motores.jpg"
-      },
-      {
-        titulo: "Bobinadoras e Agitadores",
-        imagem: "bobinadoras.jpg"
-      }
-    ]
-  },
-
-  // Produto: Gaxetas Trançadas
-  {
-    slug: "gaxetas-trancadas",
-    nome: "Gaxetas Trançadas",
-    descricao: "Vedação resistente e versátil para equipamentos industriais.",
-    imagem: "gaxetas-trancadas.jpg",
-    conteudo: [
-      {
-        tipo: "paragrafo",
-        texto: "As gaxetas GTC 1000 e GTP 2000 são cordões trançados de vedação com alta resistência térmica e química."
-      },
-      {
-        tipo: "paragrafo",
-        texto: "A GTC 1000 é feita de carbono expandido com reforço em grafite. Já a GTP 2000 é composta por PTFE puro, ideal para aplicações que exigem alta pureza como indústrias alimentícias e farmacêuticas."
-      },
-      {
-        tipo: "titulo",
-        texto: "Principais Vantagens"
-      },
-      {
-        tipo: "lista",
-        itens: [
-          "Aplicações em alta temperatura e pressão;",
-          "Não necessita lubrificação;",
-          "Baixo desgaste em eixos;",
-          "Sela fluidos com sólidos, lamas e produtos viscosos."
-        ]
-      }
-    ],
-    imagens: [
-      "gaxeta1.jpg",
-      "gaxeta2.jpg"
-    ],
-    aplicacoes: [
-      {
-        titulo: "Bombas e Misturadores",
-        imagem: "bombas.jpg"
-      },
-      {
-        titulo: "Válvulas Industriais",
-        imagem: "valvulas.jpg"
-      },
-      {
-        titulo: "Indústrias Química e Alimentícia",
-        imagem: "quimica.jpg"
-      }
-    ]
-  },
-
-  // Produto: Juntas Flexíveis em PTFE
-  {
-    slug: "juntas-flexiveis-ptfe",
+    slug: "junta-flexivel-ptfe",
     nome: "Juntas Flexíveis em PTFE",
-    descricao: "Vedação de alta resistência química e térmica.",
-    imagem: "juntas-flexiveis-ptfe.jpg",
+    descricao: "Vedação durável e resistente para altas pressões e temperaturas em diversas aplicações industriais.",
+    imagem: "/produtos/juntas-flexiveis-ptfe.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
-        texto: "Juntas 100% PTFE expandido, indicadas para vedação em superfícies irregulares e aplicações severas, com ótima estabilidade e resistência química."
+        texto: "As juntas flexíveis em 100% PTFE puro, estruturadas em fibra expandida, oferecem alta estabilidade de pressão e excelente adaptação às superfícies de vedação, garantindo durabilidade mesmo em condições severas."
       },
       {
         tipo: "paragrafo",
-        texto: "Adaptam-se bem a flanges, reatores, tanques e trocadores de calor. Ideal para vedar fluidos agressivos, com temperatura elevada e alta pressão."
+        texto: "Indicadas para uso em agitadores, dutos de ar, flanges, visores, redutores, bombas, trocadores de calor, tanques, válvulas e reatores, suportam temperaturas acima de 120°C com reaperto após o primeiro ciclo térmico."
       },
       {
         tipo: "titulo",
-        texto: "Principais Vantagens"
+        texto: "Instruções de Instalação"
       },
       {
         tipo: "lista",
         itens: [
-          "Alta resistência química;",
-          "Boa estabilidade térmica e mecânica;",
-          "Vedação mesmo em flanges danificados ou irregulares;",
-          "Aplicável em sistemas alimentícios e farmacêuticos."
+          "Limpar superfícies de contato;",
+          "Separar faixa protetora do lado adesivo;",
+          "Colocar a vedação no flange;",
+          "Sobrepor as extremidades por 1-2 cm para a direita na frente de um parafuso;",
+          "Para flanges pequenas, usar corte específico conforme figura;",
+          "Para grandes flanges, usar camada concêntrica ou meandro."
         ]
       }
     ],
     imagens: [
-      "ptfe1.jpg",
-      "ptfe2.jpg"
-    ],
-    aplicacoes: [
-      {
-        titulo: "Flanges e Trocadores de Calor",
-        imagem: "flanges.jpg"
-      },
-      {
-        titulo: "Tanques e Visores",
-        imagem: "tanques.jpg"
-      },
-      {
-        titulo: "Reatores e Bombas",
-        imagem: "reatores.jpg"
-      }
+      "junta-ptfe.jpg"
     ]
   },
-
-  // Produto: Centro de Serviços
   {
-    slug: "centro-de-servicos",
-    nome: "Centro de Serviços",
-    descricao: "Manutenção e recuperação especializada de selos mecânicos.",
-    imagem: "centro-de-servicos.jpg",
+    slug: "junta-expansao-metalica",
+    nome: "Juntas de Expansão Metálicas",
+    descricao: "Componentes flexíveis que absorvem movimentos e vibrações em tubulações industriais.",
+    imagem: "/produtos/juntas-expansao-metalicas.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
-        texto: "A MAS possui centros de serviços completos em Lauro de Freitas – BA e Fortaleza – CE, especializados na recuperação de selos mecânicos de qualquer fabricante."
-      },
+        texto: "As juntas de expansão metálicas são usadas para compensar movimentos térmicos e mecânicos em tubulações, garantindo segurança e integridade ao sistema, reduzindo esforços e evitando danos."
+      }
+    ],
+    imagens: []
+  },
+  {
+    slug: "correia-transportadora",
+    nome: "Correia Transportadora",
+    descricao: "Equipamento para transporte eficiente de materiais em processos industriais.",
+    imagem: "/produtos/correia-transportadora.jpg",
+    conteudo: [
       {
         tipo: "paragrafo",
-        texto: "As instalações contam com usinagem, lapidação, testes computadorizados e emissão de relatório de estanqueidade conforme norma API 682."
-      },
-      {
-        tipo: "titulo",
-        texto: "Principais Vantagens"
-      },
-      {
-        tipo: "lista",
-        itens: [
-          "Redução de custos com novos selos;",
-          "Alta confiabilidade nos reparos e ajustes;",
-          "Rastreamento completo por TAG e laudo técnico;",
-          "Serviço qualificado com equipamentos de alta precisão."
-        ]
+        texto: "As correias transportadoras são usadas para movimentar materiais em linhas de produção, com alta durabilidade e facilidade de manutenção, essenciais para a logística industrial."
       }
     ],
-    imagens: [
-      "centro1.jpg",
-      "centro2.jpg",
-      "centro3.jpg"
-    ],
-    aplicacoes: [
-      {
-        titulo: "Manutenção Industrial",
-        imagem: "manutencao.jpg"
-      },
-      {
-        titulo: "Selos Mecânicos Cartucho",
-        imagem: "selos.jpg"
-      },
-      {
-        titulo: "Revisão de Bombas e Reatores",
-        imagem: "bombas.jpg"
-      }
-    ]
+    imagens: []
   }
-];
+]

@@ -80,42 +80,42 @@ export default function Navbar() {
                     Selos Mecânicos
                   </Link>
                   <Link
-                    href="/protetores-de-mancal"
+                    href="/sistemas-selagem"
                     className="block py-2 px-4 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors"
                     onClick={() => setIsDropdownOpen(false)}
                   >
                     Sistemas de Selagem
                   </Link>
                   <Link
-                    href="/juntas-adesivas"
+                    href="/protetores-mancal"
                     className="block py-2 px-4 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors"
                     onClick={() => setIsDropdownOpen(false)}
                   >
                     Protetores de Mancais
                   </Link>
                   <Link
-                    href="/gaxetas-especiais"
+                    href="/buchas-hidroespelidoras"
                     className="block py-2 px-4 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors"
                     onClick={() => setIsDropdownOpen(false)}
                   >
                     Buchas Hidroespelidoras
                   </Link>
                   <Link
-                    href="/polimeros-especiais"
+                    href="/acoplamentos-flexiveis"
                     className="block py-2 px-4 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors"
                     onClick={() => setIsDropdownOpen(false)}
                   >
-                    Acoplamentos Flexiveis
+                    Acoplamentos Flexíveis
                   </Link>
                   <Link
-                    href="/calcos-calibrados"
+                    href="/juntas-flexiveis-ptfe"
                     className="block py-2 px-4 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors"
                     onClick={() => setIsDropdownOpen(false)}
                   >
-                    Juntas Flexiveis em PTFE
+                    Juntas Flexíveis em PTFE
                   </Link>
                   <Link
-                    href="/artefatos-de-borracha"
+                    href="/gaxetas"
                     className="block py-2 px-4 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors"
                     onClick={() => setIsDropdownOpen(false)}
                   >

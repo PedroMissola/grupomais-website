@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Input from '../../Input';
+import Input from '../../input';
 import RichTextEditor from '../textEditor';
 
 export default function ContactForm() {

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function ProductCard({
@@ -11,7 +12,9 @@ export default function ProductCard({
             href={link}
             className="group w-full max-w-[384px] h-[400px] border border-neutral-300 rounded-lg overflow-hidden flex flex-col text-center bg-white shadow-sm transition-all duration-300 hover:shadow-md hover:scale-[1.02] active:scale-100 focus-visible:ring-2 focus-visible:ring-blue-500 outline-none"
         >
-            <img
+            <Image
+                width={384}
+                height={256}
                 src={image}
                 alt={name}
                 className="h-64 w-full object-cover group-hover:opacity-90 transition-opacity duration-300"

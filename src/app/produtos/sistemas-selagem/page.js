@@ -19,7 +19,6 @@ export default function SistemasDeSelagemPage() {
                         description="Aumenta desempenho e segurança dos selos mecânicos."
                         image="sistemas-selagem.jpg"
                     />
-                    {/* Manter os outros sem link por enquanto */}
                     <ProductCard
                         name="Trocadores de Calor"
                         description="Permite refrigeração conforme planos API 21/23."

@@ -9,8 +9,7 @@ export default function SelesMecanicosPage() {
             <Navbar />
             <Header
                 name="Selos Mecanicos"
-                description="São chamados de componentes, por possuírem conjunto rotativo separado do estacionário, necessitando ajustes da unidade de 
-                             compressão do selo mecânico e maiores cuidados na montagem"
+                description="São chamados de componentes, por possuírem conjunto rotativo separado do estacionário, necessitando ajustes da unidade de compressão do selo mecânico e maiores cuidados na montagem"
             />
             <main className="flex flex-col gap-8 w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-32 py-8">
                 <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

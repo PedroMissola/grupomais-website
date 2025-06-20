@@ -119,7 +119,7 @@ export const produtos = [
       },
       {
         tipo: "paragrafo",
-        texto: "Desenvolvido para autoescorvantes dos fabricantes Imbil, Esco, Gorman Rupp, modelos E3, E4, E6, E8, E10, E12, T3, T4, T6, T8, T10, T12 e similares."
+        texto: "Desenvolvido para autoescorvantes dos fabricantes Imbil, Esco, Gorman Rupp, modelos E3, E4, E5, E6, E8, E10, E12, T3, T4, T6, T8, T10, T12 e similares."
       }
     ]
   },
@@ -312,14 +312,22 @@ export const produtos = [
     conteudo: [
       {
         tipo: "paragrafo",
-        texto: "Instaladas no fundo da caixa de gaxetas, substituem anéis de gaxetas e o anel ‘lanterna/cadeado’ atrás do rotor."
+        texto: "Instaladas no fundo da caixa de gaxetas, em substituição dos anéis de gaxetas e do anel 'lanterna/cadeado' atrás do rotor."
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Projetada para realizar um feixe colone da água de selagem, realizando uma barreira contra os abrasivos, direcionando e otimizando o fluxo da água de selagem."
+      },
+      {
+        tipo: "titulo",
+        texto: "OPÇÃO DE FORNECIDO EM KIT DE VEDAÇÃO – MODELO BHEG"
       },
       {
         tipo: "lista",
         itens: [
-          "Bucha em polímero auto lubrificante VCNT, não absorve líquidos, alta resistência à abrasão, temperatura até 100°C, rotação até 4000 rpm.",
-          "Cordão de gaxeta trançada GTK 1002, trançada de aramida com lubrificante, resistente à abrasão, velocidade periférica 25 m/s, temperatura 280°C, pressão até 25 bar.",
-          "Cordão de gaxeta trançada GTC 1000, carbono expandido flexível de alta pureza, reforçada com fios de grafite, temperatura até 500°C, velocidade periférica 22,8 m/s, pressão até 25 bar."
+          "Bucha Hidroespelidora: Em polímero Auto Lubrificante VCNT, NÃO absorve líquidos, mantendo o dimensional, possui alta resistência a abrasão, temperatura de trabalho de até 100°C, baixo coeficiente de atrito 0,11 e rotação de até 4000 rpm.",
+          "Cordão de gaxeta trançada GTK 1002: trançada de Aramida com lubrificante, resistente a abrasão, velocidade periférica de 25m/s, temperatura 280°C e pressões até 25 Bar.",
+          "Cordões de gaxetas trançadas, modelo GTC 1000: trançada de carbono expandido flexível de alta pureza e reforçada com fios de grafite em fibra de alta resistência, temperatura de até 500°C, velocidade periférica de até 22,8m/s, pressões de até 25Bar."
         ]
       }
     ]
@@ -345,13 +353,15 @@ export const produtos = [
       {
         tipo: "lista",
         itens: [
+          "Compensa grandes desalinhamentos;",
+          "Amortecimento de vibrações e choques;",
           "Fácil instalação;",
           "Dispensa lubrificação;",
           "Diversos modelos para diferentes aplicações;",
           "Simetria que dispensa balanceamentos;",
           "Certificado ISO 9001 e ATEX contra explosão;",
           "Permite passeio axial do eixo na partida, aumentando a vida útil do motor e componentes;",
-          "Elemento elástico que atua como fusível em caso de torque excessivo, protegendo o equipamento."
+          "Elemento elástico atua como fusível em caso de torque excessivo, protegendo o equipamento."
         ]
       }
     ],
@@ -388,11 +398,23 @@ export const produtos = [
     conteudo: [
       {
         tipo: "paragrafo",
-        texto: "Oferecemos gaxetas trançadas de alta qualidade, como a GTC 1000, feita de carbono expandido flexível com reforço de grafite, ideal para bombas, misturadores, agitadores e válvulas em vários setores industriais."
+        texto: "Comercializamos exclusivamente 2 tipos de gaxetas “GTC 1000 e GTP 2000” de ótima qualidade e excelente custo-benefício."
+      },
+      {
+        tipo: "titulo",
+        texto: "GTC 1000"
       },
       {
         tipo: "paragrafo",
-        texto: "Também comercializamos a GTP 2000, gaxeta de PTFE puro com lubrificante especial, indicada para indústrias químicas, farmacêuticas e alimentícias, onde a pureza e resistência à corrosão são essenciais."
+        texto: "Gaxeta trançada de carbono expandido flexível de alta pureza e qualidade, reforçada com fios de grafite em fibra de alta resistência. Excelente para bombas, misturadores, agitadores e válvulas em segmentos como petroquímico, papel e celulose, mineração, açúcar e álcool, saneamento e siderurgia."
+      },
+      {
+        tipo: "titulo",
+        texto: "GTP 2000"
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Gaxeta trançada de PTFE (100% puro) com lubrificante especial inerte quimicamente, indicada para indústrias químicas, farmacêuticas e alimentícias onde contaminação não é permitida."
       },
       {
         tipo: "titulo",
@@ -406,7 +428,9 @@ export const produtos = [
           "Pode ser usada com ou sem injeção de água de refrigeração (sob consulta);",
           "Reduz necessidade de ajustes periódicos;",
           "Menor desgaste de eixos e luvas comparado a gaxetas tradicionais;",
-          "Alta resistência a temperaturas e pressões variadas."
+          "Menor consumo de energia;",
+          "Sela fluidos com sólidos em suspensão, lamas e produtos viscosos;",
+          "Melhor relação custo-benefício da categoria."
         ]
       }
     ],
@@ -437,11 +461,40 @@ export const produtos = [
     conteudo: [
       {
         tipo: "paragrafo",
-        texto: "As juntas flexíveis em 100% PTFE puro, estruturadas em fibra expandida, oferecem alta estabilidade de pressão e excelente adaptação às superfícies de vedação, garantindo durabilidade mesmo em condições severas."
+        texto: "Junta de 100% PTFE (Teflon) puro, estruturada em fibra expandida. Assegura elevada estabilidade de pressão (sem fluxo frio) e boa adaptação às superfícies de vedação."
       },
       {
-        tipo: "paragrafo",
-        texto: "Indicadas para uso em agitadores, dutos de ar, flanges, visores, redutores, bombas, trocadores de calor, tanques, válvulas e reatores, suportam temperaturas acima de 120°C com reaperto após o primeiro ciclo térmico."
+        tipo: "titulo",
+        texto: "Limites de Aplicação"
+      },
+      {
+        tipo: "lista",
+        itens: [
+          "Pressão – Vácuo: 250 bar",
+          "Temperatura mínima: -240°C",
+          "Temperatura máxima: +265°C (com reaperto após primeiro ciclo acima de 120°C)",
+          "Resistência Química: pH 0 - 14 (exceto metais alcalinos fundidos/dissolvidos e flúor sob alta pressão)"
+        ]
+      },
+      {
+        tipo: "titulo",
+        texto: "Principais áreas de aplicação"
+      },
+      {
+        tipo: "lista",
+        itens: [
+          "Agitadores",
+          "Dutos de Ar",
+          "Flanges",
+          "Visores",
+          "Redutores",
+          "Bombas",
+          "Trocadores de Calor",
+          "Tanques",
+          "Válvulas",
+          "Reatores",
+          "Turbinas"
+        ]
       },
       {
         tipo: "titulo",

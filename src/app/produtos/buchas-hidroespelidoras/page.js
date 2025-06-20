@@ -19,7 +19,6 @@ export default function BuchasHidroespelidorasPage() {
                         description="Substitui anéis de gaxeta, evita desgaste."
                         image="buchas-hidroespelidoras.jpg"
                     />
-                    {/* Manter o outro sem link por enquanto */}
                     <ProductCard
                         name="Kit de Vedação BHEG"
                         description="Inclui bucha e gaxetas de alto desempenho."

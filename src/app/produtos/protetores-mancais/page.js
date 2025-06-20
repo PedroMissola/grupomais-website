@@ -19,7 +19,6 @@ export default function ProtetoresDeMancaisPage() {
                         description="Substitui retentores, evita vazamentos e contaminação."
                         image="protetores-ltec.jpg"
                     />
-                    {/* Manter os outros sem link por enquanto */}
                     <ProductCard
                         name="Protetor LTEC – Redutor Falk"
                         description="Aplicação específica em redutores tipo Falk."

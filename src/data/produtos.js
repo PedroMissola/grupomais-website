@@ -3,7 +3,7 @@ export const produtos = [
     slug: "selo-mecanico-f02-f12-f13",
     nome: "Selo Mecânico Modelo F02 / F12 / F13",
     descricao: "Componentes de fole de borracha, não balanceados hidraulicamente, para vedação confiável.",
-    imagem: "/produtos/selos-f02-f12-f13.jpg",
+    imagem: "/produtos/selos-f02-f12-f13.webp",
     conteudo: [
       {
         tipo: "paragrafo",

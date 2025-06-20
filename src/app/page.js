@@ -12,8 +12,7 @@ export default function Home() {
       <Navbar />
       <HeroSlider />
       <AboutSection />
-      <ProductsSection  />
-      <ContactSection />
+      <ProductsSection />
       <Footer />
     </>
   );

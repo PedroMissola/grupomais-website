@@ -1,0 +1,32 @@
+import Header from "@/app/components/header";
+import ProductCard from "@/app/components/ui/card";
+import Footer from "@/app/components/ui/footer";
+import Navbar from "@/app/components/ui/navbar";
+
+export default function BuchasHidroespelidorasPage() {
+    return (
+        <>
+            <Navbar />
+            <Header
+                name="Buchas Hidroespelidoras"
+                description="Substituem anéis de gaxeta e evitam desgaste."
+            />
+            <main className="flex flex-col gap-8 w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-32 py-8">
+                <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <ProductCard
+                        link="/produtos/bucha-hidroespelidora"
+                        name="Bucha Hidroespelidora"
+                        description="Substitui anéis de gaxeta, evita desgaste."
+                        image="buchas-hidroespelidoras.jpg"
+                    />
+                    {/* Manter o outro sem link por enquanto */}
+                    <ProductCard
+                        name="Kit de Vedação BHEG"
+                        description="Inclui bucha e gaxetas de alto desempenho."
+                    />
+                </section>
+            </main>
+            <Footer />
+        </>
+    );
+}

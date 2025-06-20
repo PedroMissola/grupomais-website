@@ -65,13 +65,13 @@ export default async function ProdutoPage({ params }) {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      
+
       <main className="flex-grow">
         {/* Seção Principal */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-4">
-            <h1 className="text-3xl font-bold text-center mb-8">{produto.nome}</h1>
-            
+            <h1 className="text-3xl font-bold text-center mb-8 text-neutral-900">{produto.nome}</h1>
+
             <div className="prose max-w-none">
               {produto.conteudo.map((bloco, index) => {
                 switch (bloco.tipo) {
@@ -102,12 +102,12 @@ export default async function ProdutoPage({ params }) {
               <h2 className="text-2xl font-bold text-center mb-8">
                 Figuras Ilustrativas
               </h2>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {produto.imagens.map((imagem, index) => (
                   <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img 
-                      src={imagem} 
+                    <img
+                      src={imagem}
                       alt={`Figura ${index + 1}`}
                       className="w-full h-48 object-cover"
                     />
@@ -125,13 +125,13 @@ export default async function ProdutoPage({ params }) {
               <h2 className="text-2xl font-bold text-center mb-8">
                 Aplicações Típicas
               </h2>
-              
+
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
                 {produto.aplicacoes.map((app, index) => (
                   <div key={index} className="text-center">
                     <div className="bg-gray-100 rounded-lg p-4 mb-4">
-                      <img 
-                        src={app.imagem} 
+                      <img
+                        src={app.imagem}
                         alt={app.titulo}
                         className="mx-auto h-32 object-contain"
                       />
@@ -144,7 +144,7 @@ export default async function ProdutoPage({ params }) {
           </section>
         )}
       </main>
-      
+
       <Footer />
     </div>
   );

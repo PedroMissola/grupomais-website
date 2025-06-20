@@ -1,8 +1,8 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 export default function ProductCard({
-    image,
+    image = "https://via.placeholder.com/384x256",
     name = "Produto Exemplo",
     description = "Produto de alta qualidade",
     link = "#",
@@ -12,7 +12,7 @@ export default function ProductCard({
             href={link}
             className="group w-full max-w-[384px] h-[400px] border border-neutral-300 rounded-lg overflow-hidden flex flex-col text-center bg-white shadow-sm transition-all duration-300 hover:shadow-md hover:scale-[1.02] active:scale-100 focus-visible:ring-2 focus-visible:ring-blue-500 outline-none"
         >
-            <Image
+            <img
                 width={384}
                 height={256}
                 src={image}

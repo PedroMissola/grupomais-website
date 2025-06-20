@@ -3,7 +3,7 @@ export const produtos = [
     slug: "selo-mecanico-f02-f12-f13",
     nome: "Selo Mecânico Modelo F02 / F12 / F13",
     descricao: "Componentes de fole de borracha, não balanceados hidraulicamente, para vedação confiável.",
-    imagem: "selos-f02-f12-f13.jpg",
+    imagem: "/produtos/selos-f02-f12-f13.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -23,7 +23,7 @@ export const produtos = [
     slug: "selo-mecanico-modelo-c",
     nome: "Selo Mecânico Modelo C",
     descricao: "Componente de mola tipo cônica, dependente do sentido de rotação, para vedação eficiente.",
-    imagem: "selos-modelo-c.jpg",
+    imagem: "/produtos/selos-modelo-c.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -43,7 +43,7 @@ export const produtos = [
     slug: "selo-mecanico-p21",
     nome: "Selo Mecânico Modelo P21",
     descricao: "Selo de fole de borracha com compensação paralela, para vedação robusta e confiável.",
-    imagem: "selos-p21.jpg",
+    imagem: "/produtos/selos-p21.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -63,7 +63,7 @@ export const produtos = [
     slug: "selo-mecanico-mm",
     nome: "Selo Mecânico Modelo MM",
     descricao: "Selo componente com faces de selagem não balanceadas, múltiplas molas, para alta confiabilidade.",
-    imagem: "selos-mm.jpg",
+    imagem: "/produtos/selos-mm.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -83,7 +83,7 @@ export const produtos = [
     slug: "selo-mecanico-fgt05",
     nome: "Selo Mecânico Modelo FGT05",
     descricao: "Selo componente para bombas submersas, com molas cônicas e múltiplas opções de compensação.",
-    imagem: "selos-fgt05.jpg",
+    imagem: "/produtos/selos-fgt05.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -107,7 +107,7 @@ export const produtos = [
     slug: "selo-mecanico-6f02ae",
     nome: "Selo Mecânico Modelo 6-F02AE",
     descricao: "Componente de fole de borracha para bombas autoescorvantes, com compensação paralela.",
-    imagem: "selos-6-f02ae.jpg",
+    imagem: "/produtos/selos-6-f02ae.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -127,7 +127,7 @@ export const produtos = [
     slug: "selo-mecanico-mmp",
     nome: "Selo Mecânico Modelo MMP",
     descricao: "Selo componente balanceado hidraulicamente com múltiplas molas protegidas.",
-    imagem: "selos-mmp.jpg",
+    imagem: "/produtos/selos-mmp.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -151,7 +151,7 @@ export const produtos = [
     slug: "selo-cartucho-mtec-simples",
     nome: "Selo Mecânico Cartucho MTEC Simples",
     descricao: "Cartucho simples com duplo balanceamento hidráulico, fácil instalação e alta confiabilidade.",
-    imagem: "selos-mtec-simples.jpg",
+    imagem: "/produtos/selos-mtec-simples.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -175,7 +175,7 @@ export const produtos = [
     slug: "selo-cartucho-mtec-duplo",
     nome: "Selo Mecânico Cartucho MTEC Duplo",
     descricao: "Cartucho duplo com duplo balanceamento hidráulico, para aplicações robustas e seguras.",
-    imagem: "selos-mtec-duplo.jpg",
+    imagem: "/produtos/selos-mtec-duplo.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -199,7 +199,7 @@ export const produtos = [
     slug: "selo-cartucho-cfm",
     nome: "Selo Mecânico Cartucho CFM (Simples ou Duplo)",
     descricao: "Cartucho com fole metálico, alta resistência térmica, conforme API 682.",
-    imagem: "selos-cfm.jpg",
+    imagem: "/produtos/selos-cfm.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -223,7 +223,7 @@ export const produtos = [
     slug: "selo-cartucho-mtec-reator",
     nome: "Selo Mecânico Cartucho MTEC R ESP (Simples ou Duplo)",
     descricao: "Cartucho com ou sem rolamento, para agitadores, misturadores e reatores.",
-    imagem: "selos-mtec-r-esp.jpg",
+    imagem: "/produtos/selos-mtec-r-esp.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -247,7 +247,7 @@ export const produtos = [
     slug: "sistema-selagem-termosifao",
     nome: "Sistemas de Selagem e Termosifão",
     descricao: "Sistemas auxiliares para garantir segurança e desempenho dos selos mecânicos.",
-    imagem: "sistemas-selagem.jpg",
+    imagem: "/produtos/sistemas-selagem.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -263,7 +263,7 @@ export const produtos = [
     slug: "protetor-mancal-ltec",
     nome: "Protetores de Mancal LTEC",
     descricao: "Vedação avançada para mancais rotativos, substituindo retentores tradicionais.",
-    imagem: "protetores-ltec.jpg",
+    imagem: "/produtos/protetores-ltec.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -298,17 +298,17 @@ export const produtos = [
       "figura4.jpg"
     ],
     aplicacoes: [
-      { titulo: "Mancais", imagem: "mancais.jpg" },
-      { titulo: "Redutores de Velocidade", imagem: "redutores.jpg" },
-      { titulo: "Motores Elétricos", imagem: "motores.jpg" },
-      { titulo: "Bombas Centrífugas", imagem: "bombas.jpg" }
+      { titulo: "Mancais", imagem: "/produtos/mancais.jpg" },
+      { titulo: "Redutores de Velocidade", imagem: "/produtos/redutores.jpg" },
+      { titulo: "Motores Elétricos", imagem: "/produtos/motores.jpg" },
+      { titulo: "Bombas Centrífugas", imagem: "/produtos/bombas.jpg" }
     ]
   },
   {
     slug: "bucha-hidroespelidora",
     nome: "Buchas Hidroespelidoras",
     descricao: "Sistema de vedação para caixa de gaxetas, substituindo anéis tradicionais.",
-    imagem: "buchas-hidroespelidoras.jpg",
+    imagem: "/produtos/buchas-hidroespelidoras.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -336,7 +336,7 @@ export const produtos = [
     slug: "acoplamento-flexivel",
     nome: "Acoplamentos Flexíveis",
     descricao: "Compensação de desalinhamentos e absorção de vibrações para equipamentos rotativos.",
-    imagem: "/produtos/acoplamentos-flexiveis.jpg",
+    imagem: "/produtos//produtos/acoplamentos-flexiveis.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -374,19 +374,19 @@ export const produtos = [
     aplicacoes: [
       {
         titulo: "Acionamento de Moinho",
-        imagem: "acionamento-moinho.jpg"
+        imagem: "/produtos/acionamento-moinho.jpg"
       },
       {
         titulo: "Virador de Vagões",
-        imagem: "virador-vagoes.jpg"
+        imagem: "/produtos/virador-vagoes.jpg"
       },
       {
         titulo: "Torre de Resfriamento – Eixo Flutuante",
-        imagem: "torre-resfriamento.jpg"
+        imagem: "/produtos/torre-resfriamento.jpg"
       },
       {
         titulo: "Exaustor Industrial",
-        imagem: "exaustor.jpg"
+        imagem: "/produtos/exaustor.jpg"
       }
     ]
   },
@@ -394,7 +394,7 @@ export const produtos = [
     slug: "gaxeta-trancada",
     nome: "Gaxetas Trançadas",
     descricao: "Vedação eficiente para equipamentos rotativos em diversos segmentos industriais.",
-    imagem: "/produtos/gaxetas.jpg",
+    imagem: "/produtos//produtos/gaxetas.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -441,15 +441,15 @@ export const produtos = [
     aplicacoes: [
       {
         titulo: "Bombas Industriais",
-        imagem: "aplicacao-bombas.jpg"
+        imagem: "/produtos/aplicacao-bombas.jpg"
       },
       {
         titulo: "Misturadores e Agitadores",
-        imagem: "aplicacao-misturadores.jpg"
+        imagem: "/produtos/aplicacao-misturadores.jpg"
       },
       {
         titulo: "Válvulas em Indústrias Químicas",
-        imagem: "aplicacao-valvulas.jpg"
+        imagem: "/produtos/aplicacao-valvulas.jpg"
       }
     ]
   },
@@ -457,7 +457,7 @@ export const produtos = [
     slug: "junta-flexivel-ptfe",
     nome: "Juntas Flexíveis em PTFE",
     descricao: "Vedação durável e resistente para altas pressões e temperaturas em diversas aplicações industriais.",
-    imagem: "/produtos/juntas-flexiveis-ptfe.jpg",
+    imagem: "/produtos//produtos/juntas-flexiveis-ptfe.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -520,7 +520,7 @@ export const produtos = [
     slug: "junta-expansao-metalica",
     nome: "Juntas de Expansão Metálicas",
     descricao: "Componentes flexíveis que absorvem movimentos e vibrações em tubulações industriais.",
-    imagem: "/produtos/juntas-expansao-metalicas.jpg",
+    imagem: "/produtos//produtos/juntas-expansao-metalicas.jpg",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -533,7 +533,7 @@ export const produtos = [
     slug: "correia-transportadora",
     nome: "Correia Transportadora",
     descricao: "Equipamento para transporte eficiente de materiais em processos industriais.",
-    imagem: "/produtos/correia-transportadora.jpg",
+    imagem: "/produtos//produtos/correia-transportadora.jpg",
     conteudo: [
       {
         tipo: "paragrafo",

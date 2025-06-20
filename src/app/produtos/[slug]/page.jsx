@@ -3,25 +3,25 @@ import Navbar from "@/app/components/ui/navbar";
 import { produtos } from "@/data/produtos";
 import { notFound } from "next/navigation";
 
-
 export async function generateStaticParams() {
   return produtos.map((produto) => ({ slug: produto.slug }));
 }
 
 export async function generateMetadata({ params }) {
   const produto = produtos.find((p) => p.slug === params.slug);
+
   if (!produto) return {};
 
   return {
     title: `${produto.nome} | MAS Produtos`,
     description: produto.descricao,
     alternates: {
-      canonical: `https://www.masprodutos.com.br/produtos/${produto.slug}`,
+      canonical: `https://www.masprodutos.com.br/produtos/${params.slug}`,
     },
     openGraph: {
       title: `${produto.nome} | MAS Produtos`,
       description: produto.descricao,
-      url: `https://www.masprodutos.com.br/produtos/${produto.slug}`,
+      url: `https://www.masprodutos.com.br/produtos/${params.slug}`,
       siteName: 'MAS Produtos',
       locale: 'pt_BR',
       type: 'website',
@@ -58,8 +58,10 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function ProdutoPage({ params }) {
+export default function ProdutoPage({ params }) {
+  // Remove o async e acessa params.slug diretamente
   const produto = produtos.find((p) => p.slug === params.slug);
+
   if (!produto) return notFound();
 
   return (
@@ -107,9 +109,10 @@ export default async function ProdutoPage({ params }) {
                 {produto.imagens.map((imagem, index) => (
                   <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
                     <img
-                      src={imagem}
+                      src={`/produtos/${imagem}`}
                       alt={`Figura ${index + 1}`}
                       className="w-full h-48 object-cover"
+                      loading="lazy"
                     />
                   </div>
                 ))}
@@ -131,9 +134,10 @@ export default async function ProdutoPage({ params }) {
                   <div key={index} className="text-center">
                     <div className="bg-gray-100 rounded-lg p-4 mb-4">
                       <img
-                        src={app.imagem}
+                        src={`/produtos/${app.imagem}`}
                         alt={app.titulo}
                         className="mx-auto h-32 object-contain"
+                        loading="lazy"
                       />
                     </div>
                     <h3 className="text-lg font-semibold">{app.titulo}</h3>

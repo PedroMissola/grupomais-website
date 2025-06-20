@@ -10,7 +10,16 @@ export default function ContactForm() {
     email: '',
     subject: '',
   });
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState({
+    root: {
+      children: [],
+      direction: null,
+      format: "",
+      indent: 0,
+      type: "root",
+      version: 1
+    }
+  });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [statusMessage, setStatusMessage] = useState('');
   const [statusColor, setStatusColor] = useState('text-gray-600');
@@ -33,17 +42,39 @@ export default function ContactForm() {
     }
   };
 
-  const handleMessageChange = (value) => {
-    setMessage(value);
-
-    // Limpa o erro quando o usuário começa a digitar
+  const handleMessageChange = (editorState) => {
+    setMessage(editorState);
+    
     if (fieldErrors.message) {
       setFieldErrors(prev => ({ ...prev, message: '' }));
     }
   };
 
+  const extractTextFromLexicalState = (editorState) => {
+    if (typeof editorState === 'string') return editorState;
+
+    if (!editorState || !editorState.root) return '';
+
+    // Função recursiva para extrair texto
+    const extractText = (node) => {
+      if (node.text) return node.text;
+
+      let text = '';
+      if (node.children) {
+        node.children.forEach(child => {
+          text += extractText(child);
+        });
+      }
+      return text;
+    };
+
+    return extractText(editorState.root);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const messageText = extractTextFromLexicalState(message)
 
     // Resetar estados
     setIsSubmitting(true);
@@ -177,7 +208,7 @@ export default function ContactForm() {
             disabled={isSubmitting}
             className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium disabled:opacity-70"
           >
-            {isSubmitting ? 'Enviando...' : 'Enviar Mensagem'}
+            Enviar Mensagem
           </button>
         </div>
       </form>

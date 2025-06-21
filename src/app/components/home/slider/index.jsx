@@ -24,16 +24,16 @@ const HeroSlider = () => {
 
   // Alternância automática entre os slides
   useEffect(() => {
-  if (typeof window !== "undefined") {
-    slides.forEach((slide) => {
-      const preload1 = new Image();
-      preload1.src = slide.image;
+    if (typeof window !== "undefined") {
+      slides.forEach((slide) => {
+        const img1 = new window.Image(); // ← usa o Image do navegador, não o importado
+        img1.src = slide.image;
 
-      const preload2 = new Image();
-      preload2.src = slide.bgImage;
-    });
-  }
-}, []);
+        const img2 = new window.Image();
+        img2.src = slide.bgImage;
+      });
+    }
+  }, []);
 
   return (
     <div className="relative w-full h-[500px] overflow-hidden">

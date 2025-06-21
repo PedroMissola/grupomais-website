@@ -12,22 +12,21 @@ export default function SistemasDeSelagemPage() {
                 description="Auxiliam desempenho e segurança dos selos mecânicos."
             />
             <main className="flex flex-col gap-8 w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-32 py-8">
-                <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+                <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
                     <ProductCard
-                        link="/produtos/sistema-selagem-termosifao"
-                        name="Sistemas de Selagem"
-                        description="Aumenta desempenho e segurança dos selos mecânicos."
-                        image="sistemas-selagem.jpg"
+                        link="/produtos/trocador-calor-api"
+                        name="Trocador de Calor (API 21/23)"
+                        description="Controle térmico para sistemas de dupla vedação"
+                        image="/produtos/trocadores-calor.png"
                     />
                     <ProductCard
-                        name="Trocadores de Calor"
-                        description="Permite refrigeração conforme planos API 21/23."
-                    />
-                    <ProductCard
-                        name="Termossifão (12L, 25L, 28L)"
-                        description="Auxilia planos API 52/53A com reservatório."
+                        link="/produtos/termosifao-api"
+                        name="Termossifão (API 52/53A)"
+                        description="Resfriamento autônomo por convecção natural"
+                        image="/produtos/termosifao-12l-25l-28l.png"
                     />
                 </section>
+
             </main>
             <Footer />
         </>

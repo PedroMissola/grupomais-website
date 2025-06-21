@@ -12,8 +12,8 @@ const AboutSection = () => {
               Somos uma empresa Brasileira, localizada na cidade de Lauro de Freitas/BA, com uma trajetória de mais de 05 anos, dedicados à comercialização de vedações industriais, elementos para transmissões e alinhamento, especializando-se nas linhas de Selos Mecânicos, Selos Protetores de mancal, Sistemas de Selagem, Acoplamentos Flexíveis, Juntas Flexíveis, Calços Calibrados, Buchas Poliméricas, Bombas Pneumáticas e Artefatos de Borracha.
             </p>
             <div className="text-center">
-              <Link 
-                href="/contato" 
+              <Link
+                href="/contato"
                 className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition"
               >
                 Entre em contato
@@ -21,8 +21,8 @@ const AboutSection = () => {
             </div>
           </div>
           <div className="md:w-1/2">
-            <Image 
-              src="/selos_mecanicos.webp"
+            <Image
+              src="/produtos/selos-mecanicos-ultraseal.webp"
               alt="Selos Mecânicos"
               width={600}
               height={400}

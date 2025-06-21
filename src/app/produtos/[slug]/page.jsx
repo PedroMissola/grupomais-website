@@ -1,19 +1,16 @@
-// app/produtos/[slug]/page.jsx
 import Footer from "@/app/components/ui/footer";
 import Navbar from "@/app/components/ui/navbar";
+import Voltar from "@/app/components/ui/voltar";
 import { produtos } from "@/data/produtos";
 import { notFound } from "next/navigation";
 
-// Garante que geramos as URLs estáticas
+// Ainda pode usar funções async normalmente
 export async function generateStaticParams() {
   return produtos.map((p) => ({ slug: p.slug }));
 }
 
 export default async function ProdutoPage({ params }) {
-  // 1) params é uma Promise
   const { slug } = await params;
-
-  // 2) Encontre o produto
   const produto = produtos.find((p) => p.slug === slug);
   if (!produto) return notFound();
 
@@ -24,9 +21,10 @@ export default async function ProdutoPage({ params }) {
       <main className="flex-grow">
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-4">
-            <h1 className="text-3xl font-bold text-center mb-8 text-neutral-900">
-              {produto.nome}
-            </h1>
+            <div className="flex items-center justify-center gap-4 mb-8">
+              <Voltar />
+              <h1 className="text-3xl font-bold text-neutral-900">{produto.nome}</h1>
+            </div>
             <div className="prose max-w-none">
               {produto.conteudo.map((bloco, idx) => {
                 if (bloco.tipo === "paragrafo")

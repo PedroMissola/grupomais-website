@@ -274,7 +274,7 @@ export const produtos = [
         tipo: "paragrafo",
         texto: "Especificações técnicas: material padrão inox x acetal ou bronze, rotação máxima 3500 m/min, tolerâncias de eixo e alojamento especificadas, temperatura -20°C a +120°C, pressão atmosférica, posicionamento vertical ou horizontal."
       }
-    ],
+    ]
   },
   {
     slug: "bucha-hidroespelidora",
@@ -305,18 +305,14 @@ export const produtos = [
     ]
   },
   {
-    slug: "acoplamento-flexivel",
-    nome: "Acoplamentos Flexíveis",
-    descricao: "Compensação de desalinhamentos e absorção de vibrações para equipamentos rotativos.",
+    slug: "acoplamento-tipo-a",
+    nome: "Acoplamento Tipo A",
+    descricao: "Flexível de alta absorção de vibrações, para aplicações de Alta Rotação acoplado nos eixos dos motores.",
     imagem: "/produtos/acoplamento-a.png",
     conteudo: [
       {
         tipo: "paragrafo",
-        texto: "Os acoplamentos flexíveis tipo Pneu Gummi da MAS são projetados para absorver vibrações e compensar desalinhamentos entre eixos, aumentando a vida útil dos equipamentos e melhorando a segurança operacional."
-      },
-      {
-        tipo: "paragrafo",
-        texto: "Existem vários modelos com diferentes características: tipo A, tipo BR, tipo ABP e tipo APW, cada um adequado para aplicações específicas, como alta rotação, alto torque e reversão, com tecnologia patenteada exclusiva MAS."
+        texto: "Acoplamento flexível tipo A, projetado para alta rotação, absorve vibrações e é de fácil instalação."
       },
       {
         tipo: "titulo",
@@ -325,68 +321,186 @@ export const produtos = [
       {
         tipo: "lista",
         itens: [
-          "Compensa grandes desalinhamentos;",
-          "Amortecimento de vibrações e choques;",
-          "Fácil instalação;",
+          "Ideal para aplicações de alta rotação;",
+          "Absorção eficiente de vibrações;",
+          "Fácil instalação e manutenção;",
           "Dispensa lubrificação;",
-          "Diversos modelos para diferentes aplicações;",
-          "Simetria que dispensa balanceamentos;",
-          "Certificado ISO 9001 e ATEX contra explosão;",
-          "Permite passeio axial do eixo na partida, aumentando a vida útil do motor e componentes;",
-          "Elemento elástico atua como fusível em caso de torque excessivo, protegendo o equipamento."
+          "Elemento elástico atua como fusível de segurança."
         ]
       }
     ],
-    imagens: [
-      "acoplamento-a.png",
-      "acoplamento-br.png",
-      "acoplamento-abp.png",
-      "acoplamento-apw.png"
-    ],
     aplicacoes: [
       {
-        titulo: "Acionamento de Moinho",
-        imagem: "/produtos/acionamento-moinho.jpg"
+        titulo: "Acionamento de Motores",
+        imagem: "/produtos/acionamento-motor.jpg"
       },
       {
-        titulo: "Virador de Vagões",
-        imagem: "/produtos/virador-vagoes.jpg"
-      },
-      {
-        titulo: "Torre de Resfriamento – Eixo Flutuante",
-        imagem: "/produtos/torre-resfriamento.jpg"
-      },
-      {
-        titulo: "Exaustor Industrial",
-        imagem: "/produtos/exaustor.jpg"
+        titulo: "Bombas Centrífugas",
+        imagem: "/produtos/bombas-centrifugas.jpg"
       }
     ]
   },
   {
-    slug: "gaxeta-trancada",
-    nome: "Gaxetas Trançadas",
+    slug: "acoplamento-tipo-br",
+    nome: "Acoplamento Tipo BR",
+    descricao: "Flexível de alta absorção de vibrações, para aplicações de Alto Torque e Baixa Rotação acoplados nos eixos de saída dos redutores.",
+    imagem: "/produtos/acoplamento-br.png",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Acoplamento flexível tipo BR, ideal para baixa rotação e alto torque, especialmente projetado para saída de redutores."
+      },
+      {
+        tipo: "titulo",
+        texto: "Principais Vantagens Técnicas"
+      },
+      {
+        tipo: "lista",
+        itens: [
+          "Exclusivo para aplicações de alto torque;",
+          "Projetado para eixos de saída de redutores;",
+          "Compensa grandes desalinhamentos;",
+          "Amortecimento de vibrações e choques;",
+          "Tecnologia patenteada exclusiva MAS."
+        ]
+      }
+    ],
+    aplicacoes: [
+      {
+        titulo: "Redutores Industriais",
+        imagem: "/produtos/redutores-industriais.jpg"
+      },
+      {
+        titulo: "Misturadores Pesados",
+        imagem: "/produtos/misturadores-pesados.jpg"
+      }
+    ]
+  },
+  {
+    slug: "acoplamento-tipo-abp",
+    nome: "Acoplamento Tipo ABP",
+    descricao: "Versão bipartida que permite manutenção fácil sem desmontar o equipamento, mantendo o mesmo torque do elemento inteiro.",
+    imagem: "/produtos/acoplamento-abp.png",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Acoplamento flexível tipo ABP, versão bipartida, permite manutenção fácil sem desmontar o equipamento, mantendo o mesmo torque."
+      },
+      {
+        tipo: "titulo",
+        texto: "Principais Vantagens Técnicas"
+      },
+      {
+        tipo: "lista",
+        itens: [
+          "Design bipartido para fácil manutenção;",
+          "Mantém o mesmo torque do elemento inteiro;",
+          "Disponível em qualquer versão GUMMI;",
+          "Tecnologia patenteada exclusiva MAS;",
+          "Redução significativa do tempo de parada."
+        ]
+      }
+    ],
+    aplicacoes: [
+      {
+        titulo: "Equipamentos de Mineração",
+        imagem: "/produtos/equipamentos-mineracao.jpg"
+      },
+      {
+        titulo: "Sistemas de Transporte",
+        imagem: "/produtos/sistemas-transporte.jpg"
+      }
+    ]
+  },
+  {
+    slug: "acoplamento-tipo-apw",
+    nome: "Acoplamento Tipo APW",
+    descricao: "Tecnologia patenteada que permite transmissão de maior torque mantendo flexibilidade, ideal para aplicações com reversão.",
+    imagem: "/produtos/acoplamento-apw.png",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Acoplamento flexível tipo APW, projetado para transmitir maior torque mantendo flexibilidade, ideal para aplicações pesadas e com reversão."
+      },
+      {
+        tipo: "titulo",
+        texto: "Principais Aplicações"
+      },
+      {
+        tipo: "lista",
+        itens: [
+          "Agitadores industriais;",
+          "Bombas de polpa;",
+          "Bobinadoras e desbobinadoras;",
+          "Motores de ponte rolante;",
+          "Equipamentos com reversão frequente."
+        ]
+      },
+      {
+        tipo: "titulo",
+        texto: "Vantagens Técnicas"
+      },
+      {
+        tipo: "lista",
+        itens: [
+          "Maior capacidade de transmissão de torque;",
+          "Resistente a operações com reversão;",
+          "Elemento elástico de alta durabilidade;",
+          "Certificado ATEX contra explosão;",
+          "Tecnologia patenteada exclusiva MAS."
+        ]
+      }
+    ],
+    aplicacoes: [
+      {
+        titulo: "Bombas de Polpa",
+        imagem: "/produtos/bombas-polpa.jpg"
+      },
+      {
+        titulo: "Ponte Rolante",
+        imagem: "/produtos/ponte-rolante.jpg"
+      }
+    ]
+  },
+  {
+    slug: "gaxeta-gtp-2000",
+    nome: "Gaxeta GTP 2000",
+    descricao: "Vedação eficiente para equipamentos rotativos em diversos segmentos industriais.",
+    imagem: "/produtos/gaxeta-gtc-2000.png",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Gaxeta trançada de PTFE (100% puro) com lubrificante especial inerte quimicamente, indicada para indústrias químicas, farmacêuticas e alimentícias onde contaminação não é permitida."
+      },
+    ],
+    aplicacoes: [
+      {
+        titulo: "Industriais Químicas",
+        imagem: "/produtos/industria-quimica.jpg"
+      },
+      {
+        titulo: "Indústrias Farmacêuticas",
+        imagem: "/produtos/industria-farmaceutica.jpg"
+      },
+      {
+        titulo: "Indústrias de Papel e Celulose",
+        imagem: "/produtos/industria-papel-celulose.jpg"
+      },
+      {
+        titulo: "Indústrias Alimentícias em Geral",
+        imagem: "/produtos/industria-alimenticia.jpg"
+      }
+    ]
+  },
+  {
+    slug: "gaxeta-gtc-1000",
+    nome: "Gaxetas GTC 1000",
     descricao: "Vedação eficiente para equipamentos rotativos em diversos segmentos industriais.",
     imagem: "/produtos/gaxeta-gtc-1000.png",
     conteudo: [
       {
         tipo: "paragrafo",
-        texto: "Comercializamos exclusivamente 2 tipos de gaxetas “GTC 1000 e GTP 2000” de ótima qualidade e excelente custo-benefício."
-      },
-      {
-        tipo: "titulo",
-        texto: "GTC 1000"
-      },
-      {
-        tipo: "paragrafo",
         texto: "Gaxeta trançada de carbono expandido flexível de alta pureza e qualidade, reforçada com fios de grafite em fibra de alta resistência. Excelente para bombas, misturadores, agitadores e válvulas em segmentos como petroquímico, papel e celulose, mineração, açúcar e álcool, saneamento e siderurgia."
-      },
-      {
-        tipo: "titulo",
-        texto: "GTP 2000"
-      },
-      {
-        tipo: "paragrafo",
-        texto: "Gaxeta trançada de PTFE (100% puro) com lubrificante especial inerte quimicamente, indicada para indústrias químicas, farmacêuticas e alimentícias onde contaminação não é permitida."
       },
       {
         tipo: "titulo",
@@ -405,10 +519,6 @@ export const produtos = [
           "Melhor relação custo-benefício da categoria."
         ]
       }
-    ],
-    imagens: [
-      "gaxeta-gtc-1000.png",
-      "gaxeta-gtp-2000.png"
     ],
     aplicacoes: [
       {
@@ -483,9 +593,101 @@ export const produtos = [
           "Para grandes flanges, usar camada concêntrica ou meandro."
         ]
       }
-    ],
-    imagens: [
-      "junta-ptfe.png"
+    ]
+  },
+  {
+    slug: "trocador-calor-api",
+    nome: "Trocador de Calor (Planos API 21/23)",
+    descricao: "Resfria fluidos de selagem em sistemas de dupla vedação, prevenindo superaquecimento.",
+    imagem: "/produtos/trocadores-calor.png",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Componente essencial para sistemas de dupla vedação que requerem controle térmico preciso."
+      },
+      {
+        tipo: "lista",
+        itens: [
+          "Conformidade com padrões API 21/23",
+          "Opções de conexões flangeadas (alta pressão) ou roscadas (instalação compacta)",
+          "Construído em aço inoxidável AISI 304/316L",
+          "Capacidade de resfriamento: 5-500 kW",
+          "Faixa de trabalho: -40°C a +200°C"
+        ]
+      },
+      {
+        tipo: "titulo",
+        texto: "Vantagens Técnicas"
+      },
+      {
+        tipo: "lista",
+        itens: [
+          "Aumenta vida útil dos selos mecânicos em 30-40%",
+          "Previne degradação térmica de fluidos de selagem",
+          "Reduz custos de manutenção corretiva",
+          "Compatível com óleos, glicóis e fluidos sintéticos"
+        ]
+      },
+      {
+        tipo: "titulo",
+        texto: "Aplicações Típicas"
+      },
+      {
+        tipo: "lista",
+        itens: [
+          "Bombas centrífugas de alta temperatura",
+          "Compressores de processo",
+          "Agitadores industriais",
+          "Equipamentos de refinaria e petroquímica"
+        ]
+      }
+    ]
+  },
+  {
+    slug: "termosifao-api",
+    nome: "Termossifão (Planos API 52/53A)",
+    descricao: "Sistema de resfriamento autônomo por convecção natural para selos mecânicos.",
+    imagem: "/produtos/termosifao-12l-25l-28l.png",
+    conteudo: [
+      {
+        tipo: "paragrafo",
+        texto: "Solução autônoma que opera por termossifão sem consumo energético, ideal para aplicações críticas."
+      },
+      {
+        tipo: "subtitulo",
+        texto: "Modelos Disponíveis"
+      },
+      {
+        tipo: "tabela",
+        cabecalho: ["Capacidade", "Pressão Máx", "Temperatura", "Fluído", "Aplicação"],
+        linhas: [
+          ["12L", "25 bar", "-40°C a +180°C", "Água", "Selos simples API 53A"],
+          ["25L", "40 bar", "-60°C a +200°C", "Água/Óleo", "Selos duplos API 53A"],
+          ["28L", "45 bar", "-60°C a +200°C", "Óleo Sintético", "Sistemas críticos API 52"]
+        ]
+      },
+      {
+        tipo: "titulo",
+        texto: "Características Técnicas"
+      },
+      {
+        tipo: "lista",
+        itens: [
+          "Reservatório em aço inox AISI 316L com isolamento térmico",
+          "Visor de nível com indicador magnético",
+          "Válvula de alívio integrada",
+          "Opção com bobina de resfriamento para alta carga térmica",
+          "Certificação ATEX para áreas classificadas"
+        ]
+      },
+      {
+        tipo: "titulo",
+        texto: "Princípio de Operação"
+      },
+      {
+        tipo: "paragrafo",
+        texto: "Baseia-se na convecção natural: fluidos quentes (menos densos) sobem para o reservatório, enquanto fluidos resfriados (mais densos) descem ao selo, criando circulação contínua sem bombas."
+      }
     ]
   }
 ]

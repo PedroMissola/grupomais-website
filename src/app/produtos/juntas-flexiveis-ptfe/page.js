@@ -12,12 +12,12 @@ export default function JuntasFlexiveisPTFEPage() {
                 description="Vedação resistente com Teflon puro e alta estabilidade."
             />
             <main className="flex flex-col gap-8 w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-32 py-8">
-                <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
                     <ProductCard
                         link="/produtos/junta-flexivel-ptfe"
                         name="Junta Flexível de PTFE"
                         description="Teflon puro, ótima vedação e estabilidade térmica."
-                        image="/produtos/juntas-flexiveis-ptfe.jpg"
+                        image="/produtos/junta-ptfe.png"
                     />
                 </section>
             </main>

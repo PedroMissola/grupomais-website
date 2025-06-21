@@ -52,7 +52,7 @@ const HeroSlider = () => {
               </p>
             </div>
 
-            <div className="pb-8">
+            <div className="md:pb-8">
               <Image
                 src={slide.image}
                 alt={slide.title}

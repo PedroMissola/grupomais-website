@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className="relative w-full bg-[#113548] text-white">
       <div className="mx-auto w-full max-w-7xl px-8 py-12">
-        <div className="grid grid-cols-1 justify-between gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {/* Coluna 1: Logo e Contato */}
+        <div className="grid grid-cols-1 justify-between gap-8 md:grid-cols-3">
+          {/* Coluna 1: Logo e Endereços */}
           <div>
             <div className="mb-6">
               <Image
@@ -16,7 +16,7 @@ const Footer = () => {
                 height={72}
               />
             </div>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-4">
               <div className="flex items-start">
                 <MapPin className="mr-3 mt-1 h-5 w-5 flex-shrink-0" />
                 <div>
@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="flex items-start mt-4">
+              <div className="flex items-start">
                 <MapPin className="mr-3 mt-1 h-5 w-5 flex-shrink-0" />
                 <div>
                   <h4 className="font-bold mb-1">MAS - Fortaleza</h4>
@@ -50,11 +50,17 @@ const Footer = () => {
                 <Phone className="mr-3 mt-1 h-5 w-5 flex-shrink-0" />
                 <div>
                   <p className="font-medium mb-1">Bahia</p>
-                  <p className="text-sm">
-                    (71) 3508-7009<br />
-                    (71) 99228-1780<br />
-                    (71) 99974-1780
-                  </p>
+                  <div className="flex flex-col text-sm">
+                    <a href="tel:7135087009" className="hover:underline transition-all duration-200">
+                      (71) 3508-7009
+                    </a>
+                    <a href="tel:71992281780" className="hover:underline transition-all duration-200">
+                      (71) 99228-1780
+                    </a>
+                    <a href="tel:71999741780" className="hover:underline transition-all duration-200">
+                      (71) 99974-1780
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -62,10 +68,14 @@ const Footer = () => {
                 <Phone className="mr-3 mt-1 h-5 w-5 flex-shrink-0" />
                 <div>
                   <p className="font-medium mb-1">Fortaleza</p>
-                  <p className="text-sm">
-                    (85) 3879-2783<br />
-                    (85) 9XXXX-XXXX
-                  </p>
+                  <div className="flex flex-col text-sm">
+                    <a href="tel:8538792783" className="hover:underline transition-all duration-200">
+                      (85) 3879-2783
+                    </a>
+                    <a href="tel:8599999999" className="hover:underline transition-all duration-200">
+                      (85) 99999-9999
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -73,11 +83,17 @@ const Footer = () => {
                 <Mail className="mr-3 mt-1 h-5 w-5 flex-shrink-0" />
                 <div>
                   <p className="font-medium mb-1">E-mails</p>
-                  <p className="text-sm">
-                    comercial@masprodutos.com.br<br />
-                    engenharia@masprodutos.com.br<br />
-                    comercial@grupomas.com.br
-                  </p>
+                  <div className="flex flex-col text-sm">
+                    <a href="mailto:comercial@masprodutos.com.br" className="hover:underline transition-all duration-200">
+                      comercial@masprodutos.com.br
+                    </a>
+                    <a href="mailto:engenharia@masprodutos.com.br" className="hover:underline transition-all duration-200">
+                      engenharia@masprodutos.com.br
+                    </a>
+                    <a href="mailto:comercial@grupomas.com.br" className="hover:underline transition-all duration-200">
+                      comercial@grupomas.com.br
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

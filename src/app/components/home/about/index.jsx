@@ -14,7 +14,7 @@ const AboutSection = () => {
             <div className="text-center">
               <Link
                 href="/contato"
-                className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition"
+                className="inline-flex items-center justify-center border align-middle select-none font-sans font-medium text-center transition-all duration-300 ease-in disabled:opacity-50 disabled:shadow-none disabled:cursor-not-allowed data-[shape=pill]:rounded-full data-[width=full]:w-full focus:shadow-none text-lg rounded-md py-2 px-4 shadow-sm hover:shadow-md bg-blue-800 border-blue-800 text-neutral-50 hover:bg-blue-700 hover:border-blue-700"
               >
                 Entre em contato
               </Link>

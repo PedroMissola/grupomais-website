@@ -5,44 +5,39 @@ const ProductsSection = () => {
   const products = [
     {
       title: "Selos Mecânicos",
-      link: "/selos-mecanicos",
-      image: "/selos_mecanicos.webp"
+      link: "/produtos/selos-mecanicos",
+      image: "/produtos/selos-f02-f12-f13.png"
+    },
+    {
+      title: "Sistemas de Selagem",
+      link: "/produtos/sistemas-selagem",
+      image: "/produtos/termosifao-12l-25l-28l.png"
     },
     {
       title: "Protetores de Mancal",
-      link: "/protetores-de-mancal",
-      image: "/protetores_de_mancal.webp"
+      link: "/produtos/protetores-mancal",
+      image: "/produtos/protetor-mancal-ltec.png"
     },
     {
-      title: "Juntas Adesivas",
-      link: "/juntas-adesivas",
-      image: "/juntas_adesivas.webp"
+      title: "Buchas Hidroespelidoras",
+      link: "/produtos/buchas-hidroespelidoras",
+      image: "/produtos/bucha-hidroespelidora.png"
     },
     {
-      title: "Gaxetas Especiais",
-      link: "/gaxetas-especiais",
-      image: "/gaxetas_especiais.webp"
+      title: "Acoplamentos Flexíveis",
+      link: "/produtos/acoplamentos-flexiveis",
+      image: "/produtos/acoplamento-br.png"
     },
     {
-      title: "Polímeros Especiais",
-      link: "/polimeros-especiais",
-      image: "/polimeros_especiais.webp"
+      title: "Juntas Flexíveis em PTFE",
+      link: "/produtos/juntas-flexiveis-ptfe",
+      image: "/produtos/junta-ptfe.png"
     },
     {
-      title: "Calços Calibrados",
-      link: "/calcos-calibrados",
-      image: "/calcos_calibrados.webp"
+      title: "Gaxetas",
+      link: "/produtos/gaxetas",
+      image: "/produtos/gaxeta-gtp-2000.png"
     },
-    {
-      title: "Artefatos de Borracha",
-      link: "/artefatos-de-borracha",
-      image: "/artefatos_de_borracha.webp"
-    },
-    {
-      title: "Bombas Pneumáticas de Diafragmas",
-      link: "/bombas-pneumaticas-de-diafragmas",
-      image: "/bombas_pneumaticas_de_diafragmas.webp"
-    }
   ];
 
   return (
@@ -56,7 +51,7 @@ const ProductsSection = () => {
             <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
               <Link href={product.link}>
                 <div className="p-4">
-                  <Image 
+                  <Image
                     src={product.image}
                     alt={product.title}
                     width={300}

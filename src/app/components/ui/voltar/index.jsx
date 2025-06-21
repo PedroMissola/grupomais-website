@@ -9,7 +9,7 @@ export default function Voltar() {
     return (
         <button
             onClick={() => router.back()}
-            className="text-sm text-neutral-900 hover:underline hover:text-neutral-600 "
+            className="text-sm w-5 h-5 text-neutral-900 hover:underline hover:text-neutral-600 hover:scale-[1.2] active:scale-[0.9] transition-transform duration-200"
         >
             <ArrowBigLeft />
         </button>

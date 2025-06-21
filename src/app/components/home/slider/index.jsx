@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  
+
   const slides = [
     {
       title: "Variedade",
@@ -31,19 +31,18 @@ const HeroSlider = () => {
   return (
     <div className="relative w-full h-[500px] overflow-hidden">
       {slides.map((slide, index) => (
-        <div 
+        <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
-          }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ${index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
+            }`}
         >
-          <div 
+          <div
             className="absolute inset-0 w-full h-full bg-cover bg-center brightness-75"
             style={{ backgroundImage: `url(${slide.bgImage})` }}
           >
             {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
           </div>
-          
+
           {/* Conteúdo do slide */}
           <div className="relative z-10 h-full flex flex-col items-center justify-between">
             <div className='flex flex-col items-center justify-center h-full text-center py-12'>
@@ -52,9 +51,9 @@ const HeroSlider = () => {
                 {slide.description}
               </p>
             </div>
-            
+
             <div className="pb-8">
-              <Image 
+              <Image
                 src={slide.image}
                 alt={slide.title}
                 width={960}

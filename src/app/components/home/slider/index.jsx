@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -11,16 +12,17 @@ const HeroSlider = () => {
       title: "Variedade",
       description: "Nossos produtos possuem equivalência aos variados padrões de medidas e modelos de selos mecânicos encontrados no mercado.",
       image: "/slide1.webp",
-      bgImage: "backgrounds/blueimage.png" // Imagem de fundo para o slide 1
+      bgImage: "/backgrounds/blueimage.png" // Corrigido com barra no início
     },
     {
       title: "Qualidade",
       description: "Cumprimento das normas vigentes adotadas pelos clientes/produtos garantindo assim a qualidade dos produtos.",
       image: "/slide2.webp",
-      bgImage: "backgrounds/brownimage.png" // Imagem de fundo para o slide 2
+      bgImage: "/backgrounds/brownimage.png" // Corrigido com barra no início
     }
   ];
 
+  // Alternância automática entre os slides
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -28,20 +30,28 @@ const HeroSlider = () => {
     return () => clearInterval(interval);
   }, [slides.length]);
 
+  // Pré-carregamento manual das imagens
+  useEffect(() => {
+    slides.forEach((slide) => {
+      const img1 = new Image();
+      img1.src = slide.image;
+
+      const img2 = new Image();
+      img2.src = slide.bgImage;
+    });
+  }, []);
+
   return (
     <div className="relative w-full h-[500px] overflow-hidden">
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ${index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
-            }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ${index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
         >
           <div
             className="absolute inset-0 w-full h-full bg-cover bg-center brightness-75"
             style={{ backgroundImage: `url(${slide.bgImage})` }}
-          >
-            {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
-          </div>
+          />
 
           {/* Conteúdo do slide */}
           <div className="relative z-10 h-full flex flex-col items-center justify-between">
@@ -59,6 +69,7 @@ const HeroSlider = () => {
                 width={960}
                 height={295}
                 className="mx-auto"
+                priority // Garante que a imagem será carregada logo
               />
             </div>
           </div>

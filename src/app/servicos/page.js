@@ -166,12 +166,12 @@ export default function Servicos() {
                         </div>
 
                         {/* Imagem estilo A4 */}
-                        <div className="w-full max-w-sm h-[500px] mx-auto bg-neutral-100 rounded-lg overflow-hidden shadow-md relative">
+                        <div className="bg-white w-full max-w-sm h-[500px] mx-auto bg-neutral-100 rounded-lg overflow-hidden shadow-md relative">
                             <Image
                                 src="/servicos/relatorio.jpg"
                                 alt="Exemplo de relatório de estanqueidade"
                                 fill
-                                className="object-contain"
+                                className="object-contain rounded-lg"
                                 sizes="(max-width: 768px) 100vw, 400px"
                             />
                         </div>

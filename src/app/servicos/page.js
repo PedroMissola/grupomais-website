@@ -166,7 +166,7 @@ export default function Servicos() {
                         </div>
 
                         {/* Imagem estilo A4 */}
-                        <div className="bg-white w-full max-w-sm h-[500px] mx-auto bg-neutral-100 rounded-lg overflow-hidden shadow-md relative">
+                        <div className="bg-white w-full max-w-sm h-[500px] mx-auto rounded-lg overflow-hidden shadow-md relative">
                             <Image
                                 src="/servicos/relatorio.jpg"
                                 alt="Exemplo de relatório de estanqueidade"

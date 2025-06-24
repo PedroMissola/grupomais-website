@@ -54,12 +54,12 @@ const Footer = () => {
                     <a href="tel:7135087009" className="hover:underline transition-all duration-200">
                       (71) 3508-7009
                     </a>
-                    <a href="tel:71992281780" className="hover:underline transition-all duration-200">
+                    {/* <a href="tel:71992281780" className="hover:underline transition-all duration-200">
                       (71) 99228-1780
                     </a>
                     <a href="tel:71999741780" className="hover:underline transition-all duration-200">
                       (71) 99974-1780
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -69,11 +69,11 @@ const Footer = () => {
                 <div>
                   <p className="font-medium mb-1">Fortaleza</p>
                   <div className="flex flex-col text-sm">
+                    <a href="tel:85996545076" className="hover:underline transition-all duration-200">
+                      (85) 99654-5076
+                    </a>
                     <a href="tel:8538792783" className="hover:underline transition-all duration-200">
                       (85) 3879-2783
-                    </a>
-                    <a href="tel:8599999999" className="hover:underline transition-all duration-200">
-                      (85) 99999-9999
                     </a>
                   </div>
                 </div>
@@ -132,18 +132,18 @@ const Footer = () => {
           </small>
 
           <div className="flex gap-4">
-            <a href="#" className="inline-grid place-items-center rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors">
+            {/* <a href="#" className="inline-grid place-items-center rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors">
               <Facebook className="h-4 w-4" />
-            </a>
-            <a href="#" className="inline-grid place-items-center rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors">
+            </a> */}
+            <a href="https://www.instagram.com/mas.produtoseservicos/" className="inline-grid place-items-center rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors">
               <Instagram className="h-4 w-4" />
             </a>
-            <a href="#" className="inline-grid place-items-center rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors">
+            {/* <a href="#" className="inline-grid place-items-center rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors">
               <Twitter className="h-4 w-4" />
             </a>
             <a href="#" className="inline-grid place-items-center rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors">
               <Linkedin className="h-4 w-4" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

@@ -16,8 +16,9 @@ export default function Home() {
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-8">
               <h3 className="text-3xl font-bold text-center mb-8">MAS – Produtos Industriais e Serviços</h3>
               <p className="text-lg mb-8 text-center">
-                Somos uma empresa Brasileira, localizada na cidade de Lauro de Freitas/BA, com uma trajetória de mais de 05 anos, dedicados à comercialização de vedações industriais, elementos para transmissões e alinhamento, especializando-se nas linhas de Selos Mecânicos, Selos Protetores de mancal, Sistemas de Selagem, Acoplamentos Flexíveis, Juntas Flexíveis, Calços Calibrados, Buchas Poliméricas, Bombas Pneumáticas e Artefatos de Borracha.
+                Somos uma empresa brasileira com mais de 14 anos de experiência, com fábrica localizada em Lauro de Freitas/BA e centro de serviços e escritório em Fortaleza/CE. Atuamos na fabricação e comercialização de vedações industriais, elementos de transmissão e alinhamento, com especialização em Selos Mecânicos, Selos Protetores de Mancal, Sistemas de Selagem, Acoplamentos Flexíveis, Juntas de Expansão Metálicas, Gaxetas, Juntas Flexíveis em PTFE, Buchas Hidroexpelidoras, Calços Calibrados, Bombas Pneumáticas e Artefatos de Borracha. Nosso foco é oferecer excelência em produtos e serviços, garantindo confiabilidade e segurança aos nossos clientes.
               </p>
+
               <div className="text-center">
                 <Link
                   href="/contato"

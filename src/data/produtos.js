@@ -241,6 +241,20 @@ export const produtos = [
         tipo: "paragrafo",
         texto: "Limites operacionais: tamanhos de 30 a 220 mm (acima de 100 mm sob consulta), pressão de vácuo (-28”Hg) a 20 bar, temperatura de -20°C a +220°C, velocidade periférica até 10 m/s."
       }
+    ],
+    imagens: [
+      "selo-mecanico-mtec-r-esp-duplo-flange-refrigerada.png",
+      "selo-mecanico-mtec-r-esp-duplo-flange-rolamento-refrigerada.png"
+    ],
+    aplicacoes: [
+      {
+        titulo: "Misturador Alimenticio",
+        imagem: "/outros/misturador-alimentos.jpg"
+      },
+      {
+        titulo: "Reator Químico",
+        imagem: "/outros/reator-quimico.jpg"
+      },
     ]
   },
   {
@@ -274,6 +288,27 @@ export const produtos = [
         tipo: "paragrafo",
         texto: "Especificações técnicas: material padrão inox x acetal ou bronze, rotação máxima 3500 m/min, tolerâncias de eixo e alojamento especificadas, temperatura -20°C a +120°C, pressão atmosférica, posicionamento vertical ou horizontal."
       }
+    ],
+    imagens: [
+      "/outros/protetor-mancal-letc-1.jpg",
+    ],
+    aplicacoes: [
+      {
+        titulo: "Protetor LTEC",
+        imagem: "/outros/protetor-ltec.png"
+      },
+      {
+        titulo: "Protetor LTEC - Montagem Bomba KSB / ETA",
+        imagem: "/outros/bomba-ksb-eta.png"
+      },
+      {
+        titulo: "Protetor LTEC - Montagem Bomba Goulds / Canberra",
+        imagem: "/outros/bomba-goulds-canberra.png"
+      },
+      {
+        titulo: "Protetor LTEC - Montagem Bomba Warman",
+        imagem: "/outros/bomba-warman.png"
+      }
     ]
   },
   {
@@ -302,6 +337,11 @@ export const produtos = [
           "Cordões de gaxetas trançadas, modelo GTC 1000: trançada de carbono expandido flexível de alta pureza e reforçada com fios de grafite em fibra de alta resistência, temperatura de até 500°C, velocidade periférica de até 22,8m/s, pressões de até 25Bar."
         ]
       }
+    ],
+    imagens: [
+      "/outros/bucha-hidroespelidora-1.jpg",
+      "/outros/bucha-hidroespelidora-2.jpg",
+      "/outros/bucha-hidroespelidora-3.jpg"
     ]
   },
   {
@@ -331,12 +371,28 @@ export const produtos = [
     ],
     aplicacoes: [
       {
-        titulo: "Acionamento de Motores",
-        imagem: "/produtos/acionamento-motor.jpg"
+        titulo: "Correia Transportadora",
+        imagem: "/outros/correia-transportadora.jpg"
       },
       {
-        titulo: "Bombas Centrífugas",
-        imagem: "/produtos/bombas-centrifugas.jpg"
+        titulo: "Acionamento Moinho",
+        imagem: "/outros/acionamento-moinho.jpg"
+      },
+      {
+        titulo: "Torre resfriamento - Eixo Flutuante 4m",
+        imagem: "/outros/torre-resfriamento-eixo-flutuante.jpg"
+      },
+      {
+        titulo: "Peneira",
+        imagem: "/outros/peneira.jpg"
+      },
+      {
+        titulo: "Virador de Vagões",
+        imagem: "/outros/virador-vagoes.jpg"
+      },
+      {
+        titulo: "Exaustor",
+        imagem: "/outros/exaustor.jpg"
       }
     ]
   },
@@ -367,12 +423,28 @@ export const produtos = [
     ],
     aplicacoes: [
       {
-        titulo: "Redutores Industriais",
-        imagem: "/produtos/redutores-industriais.jpg"
+        titulo: "Correia Transportadora",
+        imagem: "/outros/correia-transportadora.jpg"
       },
       {
-        titulo: "Misturadores Pesados",
-        imagem: "/produtos/misturadores-pesados.jpg"
+        titulo: "Acionamento Moinho",
+        imagem: "/outros/acionamento-moinho.jpg"
+      },
+      {
+        titulo: "Torre resfriamento - Eixo Flutuante 4m",
+        imagem: "/outros/torre-resfriamento-eixo-flutuante.jpg"
+      },
+      {
+        titulo: "Peneira",
+        imagem: "/outros/peneira.jpg"
+      },
+      {
+        titulo: "Virador de Vagões",
+        imagem: "/outros/virador-vagoes.jpg"
+      },
+      {
+        titulo: "Exaustor",
+        imagem: "/outros/exaustor.jpg"
       }
     ]
   },
@@ -403,12 +475,28 @@ export const produtos = [
     ],
     aplicacoes: [
       {
-        titulo: "Equipamentos de Mineração",
-        imagem: "/produtos/equipamentos-mineracao.jpg"
+        titulo: "Correia Transportadora",
+        imagem: "/outros/correia-transportadora.jpg"
       },
       {
-        titulo: "Sistemas de Transporte",
-        imagem: "/produtos/sistemas-transporte.jpg"
+        titulo: "Acionamento Moinho",
+        imagem: "/outros/acionamento-moinho.jpg"
+      },
+      {
+        titulo: "Torre resfriamento - Eixo Flutuante 4m",
+        imagem: "/outros/torre-resfriamento-eixo-flutuante.jpg"
+      },
+      {
+        titulo: "Peneira",
+        imagem: "/outros/peneira.jpg"
+      },
+      {
+        titulo: "Virador de Vagões",
+        imagem: "/outros/virador-vagoes.jpg"
+      },
+      {
+        titulo: "Exaustor",
+        imagem: "/outros/exaustor.jpg"
       }
     ]
   },
@@ -453,12 +541,28 @@ export const produtos = [
     ],
     aplicacoes: [
       {
-        titulo: "Bombas de Polpa",
-        imagem: "/produtos/bombas-polpa.jpg"
+        titulo: "Correia Transportadora",
+        imagem: "/outros/correia-transportadora.jpg"
       },
       {
-        titulo: "Ponte Rolante",
-        imagem: "/produtos/ponte-rolante.jpg"
+        titulo: "Acionamento Moinho",
+        imagem: "/outros/acionamento-moinho.jpg"
+      },
+      {
+        titulo: "Torre resfriamento - Eixo Flutuante 4m",
+        imagem: "/outros/torre-resfriamento-eixo-flutuante.jpg"
+      },
+      {
+        titulo: "Peneira",
+        imagem: "/outros/peneira.jpg"
+      },
+      {
+        titulo: "Virador de Vagões",
+        imagem: "/outros/virador-vagoes.jpg"
+      },
+      {
+        titulo: "Exaustor",
+        imagem: "/outros/exaustor.jpg"
       }
     ]
   },
@@ -473,23 +577,23 @@ export const produtos = [
         texto: "Gaxeta trançada de PTFE (100% puro) com lubrificante especial inerte quimicamente, indicada para indústrias químicas, farmacêuticas e alimentícias onde contaminação não é permitida."
       },
     ],
-    aplicacoes: [
+    informacoes: [
       {
-        titulo: "Industriais Químicas",
-        imagem: "/produtos/industria-quimica.jpg"
+        tituloTabela: "Limites de Operação",
+        titulo: "Pressão: 15 Bar (Rotativos) / 200 Bar (Estática)"
       },
       {
-        titulo: "Indústrias Farmacêuticas",
-        imagem: "/produtos/industria-farmaceutica.jpg"
+        titulo: "Velocidade Periférica: 15m/s (Rotativos) / 2m/s (Válvulas)"
       },
       {
-        titulo: "Indústrias de Papel e Celulose",
-        imagem: "/produtos/industria-papel-celulose.jpg"
+        titulo: "Temperatura: -150°C a +260°C"
       },
       {
-        titulo: "Indústrias Alimentícias em Geral",
-        imagem: "/produtos/industria-alimenticia.jpg"
+        titulo: "pH: 0 - 14"
       }
+    ],
+    imagens: [
+      "/outros/gaxeta-gtp-2000-1.jpg",
     ]
   },
   {
@@ -520,26 +624,29 @@ export const produtos = [
         ]
       }
     ],
-    aplicacoes: [
-      {
-        titulo: "Bombas Industriais",
-        imagem: "/produtos/aplicacao-bombas.jpg"
-      },
-      {
-        titulo: "Misturadores e Agitadores",
-        imagem: "/produtos/aplicacao-misturadores.jpg"
-      },
-      {
-        titulo: "Válvulas em Indústrias Químicas",
-        imagem: "/produtos/aplicacao-valvulas.jpg"
-      }
+    tabelaDimensional: {
+      tituloTabela: "Condições Operacionais por Aplicação",
+      colunas: [
+        "", // coluna vazia para os títulos das linhas (Pressão, Velocidade etc)
+        "Bombas e Equipamentos Rotativos",
+        "Válvulas"
+      ],
+      linhas: [
+        ["Pressão", "25 Bar", "300 Bar"],
+        ["Velocidade Periférica", "22,8 m/s", "2 Bar"],
+        ["Densidade", "1,3 g/cm³", ""],
+        ["Temperatura", "-200 +500 °C (+600 °C Vapor)", ""],
+        ["pH", "0 - 14 (Exceto para oxidantes fortes)", ""]
+      ]
+    },
+    imagens: [
+      "/outros/gaxeta-gtc-1000-1.jpg",
     ]
   },
   {
     slug: "junta-flexivel-ptfe",
     nome: "Juntas Flexíveis em PTFE",
     descricao: "Vedação durável e resistente para altas pressões e temperaturas em diversas aplicações industriais.",
-    imagem: "/produtos/junta-ptfe.png",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -593,7 +700,46 @@ export const produtos = [
           "Para grandes flanges, usar camada concêntrica ou meandro."
         ]
       }
-    ]
+    ],
+    informacoes: [
+      {
+        tituloTabela: "Limites de Aplicação",
+        titulo: "Pressão – Vácuo: 250 bar"
+      },
+      {
+        titulo: "Temperatura mínima: -240°C"
+      },
+      {
+        titulo: "Temperatura máxima: +265°C"
+      },
+      {
+        titulo: "Resistência Química: pH 0 - 14"
+      }
+    ],
+    tabelaDimensional: {
+      tituloTabela: "Dados Dimensionais e Pressões",
+      colunas: [
+        "Dimensional",
+        "Pressão Superfície (10N) / Espessura Residual (mm²)",
+        "Pressão Superfície (20N) / Espessura Residual (mm²)",
+        "Pressão Superfície (30N) / Espessura Residual (mm²)"
+      ],
+      linhas: [
+        ["5 x 2mm", "0,80", "0,60", "0,50"],
+        ["10 x 3mm", "1,20", "0,90", "0,80"],
+        ["12 x 4mm", "1,40", "1,20", "1,00"],
+        ["20 x 7mm", "2,40", "1,80", "1,40"],
+        ["25 x 10mm", "3,20", "2,50", "1,90"]
+      ]
+    },
+    imagens: [
+      "/outros/junta-ptfe1.jpg",
+      "/outros/junta-ptfe2.jpg",
+      "/outros/junta-ptfe3.jpg",
+      "/outros/junta-ptfe4.jpg",
+      "/outros/junta-ptfe5.jpg",
+      "/outros/junta-ptfe6.jpg",
+    ],
   },
   {
     slug: "trocador-calor-api",
@@ -641,6 +787,10 @@ export const produtos = [
           "Equipamentos de refinaria e petroquímica"
         ]
       }
+    ],
+    imagens: [
+      "/outros/trocador-calor-api-21-23-esquema1.jpg",
+      "/outros/trocador-calor-api-21-23-esquema2.jpg",
     ]
   },
   {
@@ -688,6 +838,11 @@ export const produtos = [
         tipo: "paragrafo",
         texto: "Baseia-se na convecção natural: fluidos quentes (menos densos) sobem para o reservatório, enquanto fluidos resfriados (mais densos) descem ao selo, criando circulação contínua sem bombas."
       }
-    ]
+    ],
+    imagens: [
+      "/outros/termosifao-12l-25l.jpg",
+      "/outros/termosifao-12l-25l-exemplo.jpg",
+      "/outros/termosifao-28l.jpg",
+    ],
   }
 ]

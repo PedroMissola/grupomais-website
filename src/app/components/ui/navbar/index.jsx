@@ -10,6 +10,7 @@ import {
   Boxes,
   Phone,
   ChevronDown,
+  Wrench,
 } from "lucide-react";
 
 export default function Navbar() {
@@ -83,7 +84,7 @@ export default function Navbar() {
             </button>
 
             {isDropdownOpen && (
-              <div className="absolute right-0 mt-2 w-72 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
+              <div className="absolute right-0 mt-2 w-72 rounded-lg shadow-lg bg-white ring-1 ring-neutral-300 ring-opacity-5 z-50">
                 <div className="py-4 px-4 grid grid-cols-1 gap-2">
                   {[
                     ["selos-mecanicos", "Selos Mecânicos"],
@@ -110,6 +111,12 @@ export default function Navbar() {
               </div>
             )}
 
+          </li>
+
+          <li>
+            <Link href="/servicos" className="flex items-center gap-1 hover:text-blue-600 transition-colors">
+              <Wrench size={18} /> Serviços
+            </Link>
           </li>
 
           <li>

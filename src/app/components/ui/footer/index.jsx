@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Linkedin, MapPin, Phone, Mail } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Linkedin, MapPin, Phone, Mail, Github } from 'lucide-react';
 import Image from 'next/image';
 
 const Footer = () => {
@@ -137,6 +137,9 @@ const Footer = () => {
             </a> */}
             <a href="https://www.instagram.com/mas.produtoseservicos/" className="inline-grid place-items-center rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors">
               <Instagram className="h-4 w-4" />
+            </a>
+            <a href="https://github.com/PedroMissola/grupomais-website" className="inline-grid place-items-center rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors">
+              <Github className="h-4 w-4" />
             </a>
             {/* <a href="#" className="inline-grid place-items-center rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors">
               <Twitter className="h-4 w-4" />

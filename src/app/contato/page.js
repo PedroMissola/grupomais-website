@@ -25,7 +25,7 @@ export default function ContactPage() {
                                     <p>Cond. Águia do Miragem, Galpão 5 e 6 Buraquinho</p>
                                     <p>CEP: 42710-620 - Lauro de Freitas/BA</p>
                                     <p>CNPJ: 13.899.087/0001-22</p>
-                                    <p>Fone-7009 / (71) 9 9228-1780 / (71) 9 9974-1780</p>
+                                    <p>(71) 3508-7009</p>
                                     <p>E-mail: comercial@masprodutos.com.br</p>
                                     <p>engenharia@masprodutos.com.br</p>
                                 </address>
@@ -37,7 +37,7 @@ export default function ContactPage() {
                                     <p>Rua Fausto Aguiar, 745, Parque Iracema</p>
                                     <p>CEP: 60822-327 – Fortaleza/CE</p>
                                     <p>CNPJ: 49.455.590/0001-36</p>
-                                    <p>Fone: (85) 3879-2783 / (85)6</p>
+                                    <p>Fone: (85) 99654-5076</p>
                                     <p>E-mail: comercial@grupomas.com.br</p>
                                     <p>vendas@grupomas.com.br</p>
                                 </address>

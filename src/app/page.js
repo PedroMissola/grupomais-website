@@ -10,11 +10,11 @@ export default function Home() {
     <>
       <Navbar />
       <HeroSlider />
-      <section id="empresa" className="py-16 bg-white">
+      <main id="empresa" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-[75%] mb-10 md:mb-0 md:pr-8">
-              <h3 className="text-3xl font-bold text-center mb-8">MAS – Produtos Industriais e Serviços</h3>
+              <h1 className="text-3xl font-bold text-center mb-8">MAS – Produtos Industriais e Serviços</h1>
               <p className="text-lg mb-8 text-center">
                 Somos uma empresa brasileira com mais de 14 anos de experiência, com fábrica localizada em Lauro de Freitas/BA e centro de serviços e escritório em Fortaleza/CE. Atuamos na fabricação e comercialização de vedações industriais, elementos de transmissão e alinhamento, com especialização em Selos Mecânicos, Selos Protetores de Mancal, Sistemas de Selagem, Acoplamentos Flexíveis, Juntas de Expansão Metálicas, Gaxetas, Juntas Flexíveis em PTFE, Buchas Hidroexpelidoras, Calços Calibrados, Bombas Pneumáticas e Artefatos de Borracha. Nosso foco é oferecer excelência em produtos e serviços, garantindo confiabilidade e segurança aos nossos clientes.
               </p>
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </main>
       <ProductsSection />
       <Footer />
     </>

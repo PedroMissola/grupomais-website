@@ -46,7 +46,7 @@ const HeroSlider = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[500px] overflow-hidden">
+    <header className="relative w-full h-[500px] overflow-hidden">
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -82,7 +82,7 @@ const HeroSlider = () => {
           </div>
         </div>
       ))}
-    </div>
+    </header>
   );
 };
 

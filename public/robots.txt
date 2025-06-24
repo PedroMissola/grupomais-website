@@ -1,0 +1,6 @@
+# Permitir acesso completo ao site
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://grupomas.com.br/sitemap.xml

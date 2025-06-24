@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "MAS Produtos",
+  "url": "https://grupomas.com.br",
+  "logo": "https://grupomas.com.br/icon/android-chrome-512x512.png",
+  "description": "Soluções completas em vedações industriais. Especialistas em selos mecânicos, protetores de mancais, acoplamentos, gaxetas e manutenção de equipamentos.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua. Antônio Fagundes Pereira, 495",
+    "addressLocality": "Lauro de Freitas",
+    "addressRegion": "BA",
+    "postalCode": "42710-620",
+    "addressCountry": "BR"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+55-85-99654-5076",
+    "contactType": "customer service",
+    "areaServed": "BR",
+    "availableLanguage": ["Portuguese"]
+  },
+  "sameAs": [
+    "https://www.instagram.com/mas.produtoseservicos/"
+  ]
+}
+

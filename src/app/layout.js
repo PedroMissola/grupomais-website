@@ -6,12 +6,13 @@ import Script from "next/script";
 export const viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 2,
-  userScalable: "yes",
-  themeColor: "white",
+  maximumScale: 5,
+  minimumScale: 1,
+  userScalable: true,
+  themeColor: "#000000",
+  interactiveWidget: "resizes-content",
 };
 
-// src/app/metadata.js
 
 export const metadata = {
   title: {
@@ -19,7 +20,7 @@ export const metadata = {
     template: "%s | MAS Produtos",
   },
   description:
-    "A MAS Produtos é especialista em soluções de vedação industrial. Atuamos com fabricação e manutenção de selos mecânicos, buchas hidroespelidoras, gaxetas, protetores de mancais e acoplamentos industriais. Atendemos todo o Brasil com excelência técnica, agilidade e compromisso com a qualidade.",
+    "A MAS Produtos é especialista em soluções de vedação industrial, com foco em selos mecânicos, protetores de mancais, gaxetas, buchas hidroespelidoras e acoplamentos flexíveis. Atuamos há mais de 14 anos no mercado com qualidade, assistência técnica e inovação.",
   keywords: [
     "MAS Produtos",
     "selos mecânicos",
@@ -27,17 +28,15 @@ export const metadata = {
     "protetores de mancal",
     "buchas hidroespelidoras",
     "gaxetas",
-    "juntas adesivas",
-    "manutenção de selos",
     "acoplamentos industriais",
-    "bombas industriais",
-    "vedação de bombas",
-    "equipamentos rotativos",
-    "fornecedor de vedação",
-    "indústria de Campinas",
-    "soluções industriais de vedação"
+    "manutenção industrial",
+    "produtos industriais Campinas",
+    "serviços de vedação",
+    "recuperação de selos",
+    "componentes industriais",
+    "empresa de vedação"
   ],
-  applicationName: "MAS Produtos - Vedações Industriais",
+  applicationName: "MAS Produtos",
   generator: "Next.js",
   referrer: "origin-when-cross-origin",
   authors: [{ name: "MAS Produtos", url: "https://grupomas.com.br" }],
@@ -46,9 +45,9 @@ export const metadata = {
   metadataBase: new URL("https://grupomas.com.br"),
 
   openGraph: {
-    title: "MAS Produtos - Selos Mecânicos, Vedações e Manutenção Técnica",
+    title: "MAS Produtos - Soluções Industriais em Vedação e Manutenção Técnica",
     description:
-      "Soluções completas para vedação industrial. Selos mecânicos, buchas, gaxetas, acoplamentos e manutenção especializada em equipamentos rotativos.",
+      "Especialistas em vedação industrial e manutenção de selos mecânicos. Atendemos todo o Brasil com excelência técnica e soluções sob medida.",
     url: "https://grupomas.com.br",
     siteName: "MAS Produtos",
     images: [
@@ -65,11 +64,11 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "MAS Produtos - Vedações Industriais de Alta Performance",
+    title: "MAS Produtos - Vedações Industriais e Serviços Técnicos",
     description:
-      "Selos mecânicos, gaxetas e protetores de mancal com garantia de qualidade. Mais de 14 anos de experiência no mercado industrial.",
+      "Mais de 14 anos oferecendo selos mecânicos, buchas, gaxetas, protetores de mancal e serviços especializados para o setor industrial.",
     images: ["https://grupomas.com.br/opengraph-image.jpg"],
-    creator: "@grupomas",
+    creator: "@masprodutos",
   },
 
   icons: {
@@ -102,6 +101,7 @@ export const metadata = {
 
   category: "Indústria de Vedações e Componentes Industriais",
 };
+
 
 
 export default function RootLayout({ children }) {

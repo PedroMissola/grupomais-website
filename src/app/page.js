@@ -31,10 +31,12 @@ export default function Home() {
             <div className="md:w-1/2">
               <Image
                 src="/produtos/selos-mecanicos-ultraseal.webp"
-                alt="Selos Mecânicos"
+                alt="Varios Modelos de Selos Mecânicos Ultraseal"
                 width={600}
                 height={400}
                 className="rounded-lg shadow-xl"
+                loading="lazy"
+                role="presentation"
               />
             </div>
           </div>

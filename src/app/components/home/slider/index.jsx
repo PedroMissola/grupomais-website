@@ -76,7 +76,10 @@ const HeroSlider = () => {
                 width={960}
                 height={295}
                 className="mx-auto"
-                priority
+                priority={index === 0} // Prioriza o primeiro slide
+                quality={80}
+                placeholder='blur'
+                blurDataURL={slide.image} // Usado para o efeito de carregamento
               />
             </div>
           </div>

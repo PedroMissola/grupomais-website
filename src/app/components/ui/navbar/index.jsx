@@ -19,11 +19,14 @@ export default function Navbar() {
   const desktopDropdownRef = useRef(null);
   const mobileDropdownRef = useRef(null);
 
-
   useEffect(() => {
     const handleClickOutside = (event) => {
-      const isClickOutsideDesktop = desktopDropdownRef.current && !desktopDropdownRef.current.contains(event.target);
-      const isClickOutsideMobile = mobileDropdownRef.current && !mobileDropdownRef.current.contains(event.target);
+      const isClickOutsideDesktop =
+        desktopDropdownRef.current &&
+        !desktopDropdownRef.current.contains(event.target);
+      const isClickOutsideMobile =
+        mobileDropdownRef.current &&
+        !mobileDropdownRef.current.contains(event.target);
 
       if (isClickOutsideDesktop && isClickOutsideMobile) {
         setIsDropdownOpen(false);
@@ -36,28 +39,33 @@ export default function Navbar() {
     };
   }, []);
 
-
   const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
-    <nav className="bg-white px-4 sm:px-8 lg:px-32 py-4 shadow-sm relative z-50">
+    <nav
+      className="bg-white px-4 sm:px-8 lg:px-32 py-4 shadow-sm relative z-50"
+      role="navigation"
+      aria-label="Navegação principal"
+    >
       <div className="flex justify-between items-center">
         {/* Logo */}
-        <Link href="/">
+        <Link href="/" aria-label="Página inicial da MAS Produtos">
           <Image
             src="/logos/logo.webp"
-            alt="Logo da Empresa"
+            alt="Logomarca da MAS Produtos - Vedações Industriais"
             width={250}
             height={125}
+            priority
             className="h-12 w-auto"
           />
         </Link>
 
-        {/* Botão Mobile (só aparece em telas pequenas) */}
+        {/* Botão Mobile */}
         <button
           onClick={toggleMobileMenu}
           className="lg:hidden text-neutral-700"
+          aria-label="Abrir ou fechar menu móvel"
         >
           {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -65,16 +73,22 @@ export default function Navbar() {
         {/* Menu Desktop */}
         <ul className="hidden lg:flex items-center space-x-6 font-semibold text-neutral-700">
           <li>
-            <Link href="/" className="flex items-center gap-1 hover:text-blue-600 transition-colors">
+            <Link
+              href="/"
+              className="flex items-center gap-1 hover:text-blue-600 transition-colors"
+              aria-label="Ir para a página inicial"
+            >
               <Home size={18} /> Home
             </Link>
           </li>
 
           <li className="relative" ref={desktopDropdownRef}>
             <button
-              data-ignore-click-outside
               onClick={toggleDropdown}
               className="flex items-center gap-2 hover:text-blue-600 transition-colors w-full"
+              aria-haspopup="true"
+              aria-expanded={isDropdownOpen}
+              aria-controls="dropdown-produtos"
             >
               <Boxes size={18} /> Produtos
               <ChevronDown
@@ -84,17 +98,12 @@ export default function Navbar() {
             </button>
 
             {isDropdownOpen && (
-              <div className="absolute right-0 mt-2 w-72 rounded-lg shadow-lg bg-white ring-1 ring-neutral-300 ring-opacity-5 z-50">
+              <div
+                id="dropdown-produtos"
+                className="absolute right-0 mt-2 w-72 rounded-lg shadow-lg bg-white ring-1 ring-neutral-300 ring-opacity-5 z-50"
+              >
                 <div className="py-4 px-4 grid grid-cols-1 gap-2">
-                  {[
-                    ["selos-mecanicos", "Selos Mecânicos"],
-                    ["sistemas-selagem", "Sistemas de Selagem"],
-                    ["protetores-mancal", "Protetores de Mancais"],
-                    ["buchas-hidroespelidoras", "Buchas Hidroespelidoras"],
-                    ["acoplamentos-flexiveis", "Acoplamentos Flexíveis"],
-                    ["juntas-flexiveis-ptfe", "Juntas Flexíveis em PTFE"],
-                    ["gaxetas", "Gaxetas"],
-                  ].map(([slug, nome]) => (
+                  {["selos-mecanicos", "sistemas-selagem", "protetores-mancal", "buchas-hidroespelidoras", "acoplamentos-flexiveis", "juntas-flexiveis-ptfe", "gaxetas"].map((slug) => (
                     <Link
                       key={slug}
                       href={`/produtos/${slug}`}
@@ -103,37 +112,46 @@ export default function Navbar() {
                         setIsDropdownOpen(false);
                         setIsMobileMenuOpen(false);
                       }}
+                      aria-label={`Ir para a página de ${slug.replace(/-/g, ' ')}`}
                     >
-                      {nome}
+                      {slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
                     </Link>
                   ))}
                 </div>
               </div>
             )}
-
           </li>
 
           <li>
-            <Link href="/servicos" className="flex items-center gap-1 hover:text-blue-600 transition-colors">
+            <Link
+              href="/servicos"
+              className="flex items-center gap-1 hover:text-blue-600 transition-colors"
+              aria-label="Ver serviços da MAS Produtos"
+            >
               <Wrench size={18} /> Serviços
             </Link>
           </li>
 
           <li>
-            <Link href="/contato" className="flex items-center gap-1 hover:text-blue-600 transition-colors">
+            <Link
+              href="/contato"
+              className="flex items-center gap-1 hover:text-blue-600 transition-colors"
+              aria-label="Entrar em contato com a MAS Produtos"
+            >
               <Phone size={18} /> Contato
             </Link>
           </li>
         </ul>
       </div>
 
-      {/* Menu Mobile - visível só se o menu for aberto */}
+      {/* Menu Mobile */}
       {isMobileMenuOpen && (
         <div className="lg:hidden mt-4 p-4 bg-white space-y-4 font-semibold text-neutral-700">
           <Link
             href="/"
             className="flex items-center gap-2 hover:text-blue-600 transition-colors"
             onClick={toggleMobileMenu}
+            aria-label="Ir para a página inicial"
           >
             <Home size={18} /> Home
           </Link>
@@ -142,6 +160,9 @@ export default function Navbar() {
             <button
               onClick={toggleDropdown}
               className="flex items-center gap-2 hover:text-blue-600 transition-colors w-full"
+              aria-haspopup="true"
+              aria-expanded={isDropdownOpen}
+              aria-controls="mobile-dropdown-produtos"
             >
               <Boxes size={18} /> Produtos
               <ChevronDown
@@ -151,16 +172,12 @@ export default function Navbar() {
             </button>
 
             {isDropdownOpen && (
-              <div ref={mobileDropdownRef} className="mt-2 pl-4 flex flex-col gap-3">
-                {[
-                  ["selos-mecanicos", "Selos Mecânicos"],
-                  ["sistemas-selagem", "Sistemas de Selagem"],
-                  ["protetores-mancal", "Protetores de Mancais"],
-                  ["buchas-hidroespelidoras", "Buchas Hidroespelidoras"],
-                  ["acoplamentos-flexiveis", "Acoplamentos Flexíveis"],
-                  ["juntas-flexiveis-ptfe", "Juntas Flexíveis em PTFE"],
-                  ["gaxetas", "Gaxetas"],
-                ].map(([slug, nome]) => (
+              <div
+                id="mobile-dropdown-produtos"
+                ref={mobileDropdownRef}
+                className="mt-2 pl-4 flex flex-col gap-3"
+              >
+                {["selos-mecanicos", "sistemas-selagem", "protetores-mancal", "buchas-hidroespelidoras", "acoplamentos-flexiveis", "juntas-flexiveis-ptfe", "gaxetas"].map((slug) => (
                   <Link
                     key={slug}
                     href={`/produtos/${slug}`}
@@ -169,8 +186,9 @@ export default function Navbar() {
                       setIsDropdownOpen(false);
                       setIsMobileMenuOpen(false);
                     }}
+                    aria-label={`Ir para a página de ${slug.replace(/-/g, ' ')}`}
                   >
-                    {nome}
+                    {slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
                   </Link>
                 ))}
               </div>
@@ -181,6 +199,7 @@ export default function Navbar() {
             href="/contato"
             className="flex items-center gap-2 hover:text-blue-600 transition-colors"
             onClick={toggleMobileMenu}
+            aria-label="Entrar em contato com a MAS Produtos"
           >
             <Phone size={18} /> Contato
           </Link>

@@ -6,39 +6,47 @@ const ProductsSection = () => {
     {
       title: "Selos Mecânicos",
       link: "/produtos/selos-mecanicos",
-      image: "/produtos/selos-f02-f12-f13.png"
+      image: "/produtos/selos-f02-f12-f13.png",
+      alt: "Selos mecânicos modelos F02, F12 e F13, utilizados para vedação rotativa em bombas e equipamentos industriais"
     },
     {
       title: "Sistemas de Selagem",
       link: "/produtos/sistemas-selagem",
-      image: "/produtos/termosifao-12l-25l-28l.png"
+      image: "/produtos/termosifao-12l-25l-28l.png",
+      alt: "Sistemas de selagem com termossifão de 12L, 25L e 28L para resfriamento de selos mecânicos em operação contínua"
     },
     {
       title: "Protetores de Mancal",
       link: "/produtos/protetores-mancal",
-      image: "/produtos/protetor-mancal-ltec.png"
+      image: "/produtos/protetor-mancal-ltec.png",
+      alt: "Protetor de mancal LTEC da MAS Produtos, aplicado na vedação de eixos e prevenção de entrada de contaminantes"
     },
     {
       title: "Buchas Hidroespelidoras",
       link: "/produtos/buchas-hidroespelidoras",
-      image: "/produtos/bucha-hidroespelidora.png"
+      image: "/produtos/bucha-hidroespelidora.png",
+      alt: "Bucha hidroespelidora industrial, substitui anéis de gaxeta e oferece maior vida útil e estanqueidade"
     },
     {
       title: "Acoplamentos Flexíveis",
       link: "/produtos/acoplamentos-flexiveis",
-      image: "/produtos/acoplamento-br.png"
+      image: "/produtos/acoplamento-br.png",
+      alt: "Acoplamento flexível tipo BR, absorve desalinhamentos e vibrações entre eixos rotativos em equipamentos industriais"
     },
     {
       title: "Juntas Flexíveis em PTFE",
       link: "/produtos/juntas-flexiveis-ptfe",
-      image: "/produtos/junta-ptfe.png"
+      image: "/produtos/junta-ptfe.png",
+      alt: "Junta flexível em PTFE para vedação em ambientes agressivos, resistente a produtos químicos e altas temperaturas"
     },
     {
       title: "Gaxetas",
       link: "/produtos/gaxetas",
-      image: "/produtos/gaxeta-gtp-2000.png"
+      image: "/produtos/gaxeta-gtp-2000.png",
+      alt: "Gaxeta GTP 2000 para vedação de bombas e válvulas, fabricada em grafite expandido com alta resistência térmica"
     },
   ];
+
 
   return (
     <section className="py-16 bg-gray-100">
@@ -53,7 +61,8 @@ const ProductsSection = () => {
                 <div className="p-4">
                   <Image
                     src={product.image}
-                    alt={product.title}
+                    alt={product.alt}
+                    loading='lazy'
                     width={300}
                     height={200}
                     className="w-full h-48 object-cover mb-4"

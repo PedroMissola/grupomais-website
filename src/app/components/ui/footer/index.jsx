@@ -69,9 +69,9 @@ const Footer = () => {
                 <div>
                   <p className="font-medium mb-1">Fortaleza</p>
                   <div className="flex flex-col text-sm">
-                    <a href="tel:85996545076" className="hover:underline transition-all duration-200">
+                    {/* <a href="tel:85996545076" className="hover:underline transition-all duration-200">
                       (85) 99654-5076
-                    </a>
+                    </a> */}
                     <a href="tel:8538792783" className="hover:underline transition-all duration-200">
                       (85) 3879-2783
                     </a>

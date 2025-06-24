@@ -6,9 +6,9 @@ import Script from "next/script";
 export const viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: "no",
-  themeColor: "black",
+  maximumScale: 2,
+  userScalable: "yes",
+  themeColor: "white",
 };
 
 // src/app/metadata.js

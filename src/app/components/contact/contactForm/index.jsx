@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Input from '../../ui/input';
-import RichTextEditor from '../textEditor';
+import RichTextEditor from '../../ui/textEditortor';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({

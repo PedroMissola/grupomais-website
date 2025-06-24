@@ -84,13 +84,13 @@ const Footer = () => {
                 <div>
                   <p className="font-medium mb-1">E-mails</p>
                   <div className="flex flex-col text-sm">
-                    <a href="mailto:comercial@masprodutos.com.br" className="hover:underline transition-all duration-200">
+                    <a href="mailto:comercial@masprodutos.com.br" className="hover:underline transition-all duration-200 p-2">
                       comercial@masprodutos.com.br
                     </a>
-                    <a href="mailto:engenharia@masprodutos.com.br" className="hover:underline transition-all duration-200">
+                    <a href="mailto:engenharia@masprodutos.com.br" className="hover:underline transition-all duration-200 p-2">
                       engenharia@masprodutos.com.br
                     </a>
-                    <a href="mailto:comercial@grupomas.com.br" className="hover:underline transition-all duration-200">
+                    <a href="mailto:comercial@grupomas.com.br" className="hover:underline transition-all duration-200 p-2">
                       comercial@grupomas.com.br
                     </a>
                   </div>

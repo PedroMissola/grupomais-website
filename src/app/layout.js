@@ -1,7 +1,6 @@
 import "./globals.css";
 import { inter, firaCode } from "./fonts";
 import { GoogleAnalyticsTracker } from "@/app/analytics";
-// import Footer from "@/components/footer";
 import Script from "next/script";
 
 export const viewport = {
@@ -12,58 +11,96 @@ export const viewport = {
   themeColor: "black",
 };
 
+// src/app/metadata.js
+
 export const metadata = {
   title: {
-    default: "MAS Produtos - Soluções em Vedações Industriais",
+    default: "MAS Produtos - Selos Mecânicos, Vedações Industriais e Manutenção Técnica",
     template: "%s | MAS Produtos",
   },
   description:
-    "A MAS Produtos é especialista em soluções de vedação industrial, atuando há mais de 14 anos com fabricação e serviços de selos mecânicos, buchas hidroespelidoras, protetores de mancais, acoplamentos e juntas.",
+    "A MAS Produtos é especialista em soluções de vedação industrial. Atuamos com fabricação e manutenção de selos mecânicos, buchas hidroespelidoras, gaxetas, protetores de mancais e acoplamentos industriais. Atendemos todo o Brasil com excelência técnica, agilidade e compromisso com a qualidade.",
   keywords: [
     "MAS Produtos",
-    "vedações industriais",
     "selos mecânicos",
+    "vedações industriais",
+    "protetores de mancal",
     "buchas hidroespelidoras",
-    "protetores de mancais",
-    "juntas PTFE",
-    "acoplamentos flexíveis",
     "gaxetas",
-    "manutenção industrial",
-    "equipamentos industriais",
+    "juntas adesivas",
+    "manutenção de selos",
+    "acoplamentos industriais",
+    "bombas industriais",
+    "vedação de bombas",
+    "equipamentos rotativos",
+    "fornecedor de vedação",
+    "indústria de Campinas",
+    "soluções industriais de vedação"
   ],
+  applicationName: "MAS Produtos - Vedações Industriais",
+  generator: "Next.js",
+  referrer: "origin-when-cross-origin",
   authors: [{ name: "MAS Produtos", url: "https://grupomas.com.br" }],
-  creator: "MAS Produtos - Grupo MAS",
+  creator: "MAS Produtos",
+  publisher: "MAS Produtos",
   metadataBase: new URL("https://grupomas.com.br"),
+
   openGraph: {
-    title: "MAS Produtos - Soluções em Vedações Industriais",
+    title: "MAS Produtos - Selos Mecânicos, Vedações e Manutenção Técnica",
     description:
-      "Soluções em vedação industrial com selos mecânicos, buchas hidroespelidoras, acoplamentos e serviços especializados. Mais de 14 anos de experiência.",
+      "Soluções completas para vedação industrial. Selos mecânicos, buchas, gaxetas, acoplamentos e manutenção especializada em equipamentos rotativos.",
     url: "https://grupomas.com.br",
     siteName: "MAS Produtos",
     images: [
       {
-        url: "https://grupomas.com.br/opengraph-image.png",
+        url: "https://grupomas.com.br/opengraph-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Logo da MAS Produtos - Soluções em Vedações Industriais",
+        alt: "MAS Produtos - Especialista em Vedações Industriais",
       },
     ],
     locale: "pt_BR",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "MAS Produtos - Vedações Industriais",
+    title: "MAS Produtos - Vedações Industriais de Alta Performance",
     description:
-      "Selos mecânicos, juntas, acoplamentos e soluções industriais com qualidade e confiança.",
+      "Selos mecânicos, gaxetas e protetores de mancal com garantia de qualidade. Mais de 14 anos de experiência no mercado industrial.",
     images: ["https://grupomas.com.br/opengraph-image.jpg"],
-    creator: "@grupomas", // caso exista uma conta oficial
+    creator: "@grupomas",
   },
+
   icons: {
     icon: "/icon/favicon.ico",
     apple: "/icon/apple-touch-icon.png",
+    shortcut: "/icon/favicon-32x32.png",
   },
   manifest: "/icon/site.webmanifest",
+
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      maxVideoPreview: -1,
+      maxImagePreview: "large",
+      maxSnippet: -1,
+    },
+  },
+
+  alternates: {
+    canonical: "https://grupomas.com.br",
+    languages: {
+      "pt-BR": "https://grupomas.com.br",
+    },
+  },
+
+  category: "Indústria de Vedações e Componentes Industriais",
 };
 
 
@@ -91,7 +128,6 @@ export default function RootLayout({ children }) {
       <body>
         <GoogleAnalyticsTracker />
         {children}
-        {/* <Footer /> */}
       </body>
     </html>
   );

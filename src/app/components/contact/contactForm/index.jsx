@@ -44,7 +44,7 @@ export default function ContactForm() {
 
   const handleMessageChange = (editorState) => {
     setMessage(editorState);
-    
+
     if (fieldErrors.message) {
       setFieldErrors(prev => ({ ...prev, message: '' }));
     }
@@ -79,7 +79,7 @@ export default function ContactForm() {
     // Resetar estados
     setIsSubmitting(true);
     setStatusMessage('Enviando...');
-    setStatusColor('text-blue-600');
+    setStatusColor('text-[#113548]');
     setFieldErrors({
       name: '',
       email: '',
@@ -184,8 +184,6 @@ export default function ContactForm() {
           <label htmlFor="message" className="block mb-2 font-medium">Mensagem</label>
           <RichTextEditor value={message} onChange={handleMessageChange} />
 
-          {fieldErrors.message && <p className="mt-2 text-sm text-red-600">{fieldErrors.message}</p>}
-
           <div className="flex gap-1.5 text-neutral-600 mt-2">
             <svg width="1.5em" height="1.5em" strokeWidth="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" className="h-3.5 w-3.5 shrink-0 tranneutral-y-[3px] stroke-2">
               <path d="M12 11.5V16.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -193,8 +191,13 @@ export default function ContactForm() {
               <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"></path>
             </svg>
             <small className="font-sans text-sm text-current antialiased">
-              Use no mínimo 10 caracteres e no máximo 1000 caracteres.
+              {fieldErrors.message ? (
+                <p className="mt-2 text-sm text-red-600">{fieldErrors.message}</p>
+              ) : (
+                <>Use no mínimo 10 caracteres e no máximo 1000 caracteres.</>
+              )}
             </small>
+
           </div>
         </div>
 
@@ -206,7 +209,7 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium disabled:opacity-70"
+            className="bg-[#113548] text-white px-6 py-3 rounded-lg hover:bg-[#274250] transition-colors font-medium disabled:opacity-70"
           >
             Enviar Mensagem
           </button>

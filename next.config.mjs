@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-images: {
+  images: {
     domains: ['images.unsplash.com'],
   },
-  // Adicione esta configuração para o MapBox
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,

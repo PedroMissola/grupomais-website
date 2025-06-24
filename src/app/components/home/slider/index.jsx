@@ -11,14 +11,14 @@ const HeroSlider = () => {
       title: "Variedade",
       description:
         "Nossos produtos possuem equivalência aos variados padrões de medidas e modelos de selos mecânicos encontrados no mercado.",
-      image: "/slide1.webp",
+      image: "/slide1.png",
       bgImage: "/backgrounds/blueimage.png", // Corrigido
     },
     {
       title: "Qualidade",
       description:
         "Cumprimento das normas vigentes adotadas pelos clientes/produtos garantindo assim a qualidade dos produtos.",
-      image: "/slide2.webp",
+      image: "/slide2.png",
       bgImage: "/backgrounds/brownimage.png", // Corrigido
     },
   ];

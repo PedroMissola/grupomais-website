@@ -15,11 +15,16 @@ import {
 export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const dropdownRef = useRef(null);
+  const desktopDropdownRef = useRef(null);
+  const mobileDropdownRef = useRef(null);
+
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      const isClickOutsideDesktop = desktopDropdownRef.current && !desktopDropdownRef.current.contains(event.target);
+      const isClickOutsideMobile = mobileDropdownRef.current && !mobileDropdownRef.current.contains(event.target);
+
+      if (isClickOutsideDesktop && isClickOutsideMobile) {
         setIsDropdownOpen(false);
       }
     };
@@ -29,6 +34,7 @@ export default function Navbar() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
 
   const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -63,11 +69,11 @@ export default function Navbar() {
             </Link>
           </li>
 
-          <li className="relative" ref={dropdownRef}>
+          <li className="relative" ref={desktopDropdownRef}>
             <button
+              data-ignore-click-outside
               onClick={toggleDropdown}
-              className="flex items-center gap-1 hover:text-blue-600 transition-colors"
-              aria-expanded={isDropdownOpen}
+              className="flex items-center gap-2 hover:text-blue-600 transition-colors w-full"
             >
               <Boxes size={18} /> Produtos
               <ChevronDown
@@ -91,8 +97,11 @@ export default function Navbar() {
                     <Link
                       key={slug}
                       href={`/produtos/${slug}`}
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors"
-                      onClick={() => setIsDropdownOpen(false)}
+                      className="text-sm text-gray-700 hover:text-blue-600 transition-colors"
+                      onClick={() => {
+                        setIsDropdownOpen(false);
+                        setIsMobileMenuOpen(false);
+                      }}
                     >
                       {nome}
                     </Link>
@@ -100,6 +109,7 @@ export default function Navbar() {
                 </div>
               </div>
             )}
+
           </li>
 
           <li>
@@ -134,7 +144,7 @@ export default function Navbar() {
             </button>
 
             {isDropdownOpen && (
-              <div className="mt-2 pl-4 flex flex-col gap-2">
+              <div ref={mobileDropdownRef} className="mt-2 pl-4 flex flex-col gap-3">
                 {[
                   ["selos-mecanicos", "Selos Mecânicos"],
                   ["sistemas-selagem", "Sistemas de Selagem"],
@@ -150,7 +160,7 @@ export default function Navbar() {
                     className="text-sm text-gray-700 hover:text-blue-600 transition-colors"
                     onClick={() => {
                       setIsDropdownOpen(false);
-                      toggleMobileMenu();
+                      setIsMobileMenuOpen(false);
                     }}
                   >
                     {nome}

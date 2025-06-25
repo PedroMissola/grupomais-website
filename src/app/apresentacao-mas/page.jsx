@@ -1,15 +1,24 @@
-// app/html-page/page.tsx
-import fs from 'fs'
-import path from 'path'
+'use client'
+
+import { useEffect, useState } from 'react'
 import ButtonHome from '../components/ui/homeButton'
 
-export default async function HtmlPage() {
-    const filePath = path.join(process.cwd(), 'public', 'produtos-mas.html')
-    const conteudo = fs.readFileSync(filePath, 'utf8')
+export default function HtmlPage() {
+    const [conteudo, setConteudo] = useState < string | null > (null)
+
+    useEffect(() => {
+        fetch('/meu-arquivo.html')
+            .then((res) => res.text())
+            .then(setConteudo)
+    }, [])
 
     return (
-        <main className="relative p-4">
-            <div dangerouslySetInnerHTML={{ __html: conteudo }} />
+        <main className="p-4">
+            {conteudo ? (
+                <div dangerouslySetInnerHTML={{ __html: conteudo }} />
+            ) : (
+                <p>Carregando conteúdo...</p>
+            )}
             <ButtonHome />
         </main>
     )

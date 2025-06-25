@@ -7,7 +7,7 @@ export default function HtmlPage() {
     const [conteudo, setConteudo] = useState < string | null > (null)
 
     useEffect(() => {
-        fetch('produtos-mas/.html')
+        fetch('produtos-mas.html')
             .then((res) => res.text())
             .then(setConteudo)
     }, [])

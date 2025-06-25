@@ -203,6 +203,14 @@ export default function Navbar() {
           >
             <Phone size={18} /> Contato
           </Link>
+
+            <Link
+              href="/servicos"
+              className="flex items-center gap-1 hover:text-blue-600 transition-colors"
+              aria-label="Ver serviços da MAS Produtos"
+            >
+              <Wrench size={18} /> Serviços
+            </Link>
         </div>
       )}
     </nav>

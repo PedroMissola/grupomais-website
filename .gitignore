@@ -43,3 +43,6 @@ next-env.d.ts
 # Não faz parte do projeto
 src/app/dashboard
 src/api/produtos
+apresentacao
+
+.idx

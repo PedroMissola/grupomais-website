@@ -44,3 +44,6 @@ next-env.d.ts
 src/app/dashboard
 src/api/produtos
 .vercel
+apresentacao
+
+.idx

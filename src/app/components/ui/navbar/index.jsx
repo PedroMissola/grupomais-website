@@ -103,7 +103,7 @@ export default function Navbar() {
                 className="absolute right-0 mt-2 w-72 rounded-lg shadow-lg bg-white ring-1 ring-neutral-300 ring-opacity-5 z-50"
               >
                 <div className="py-4 px-4 grid grid-cols-1 gap-2">
-                  {["selos-mecanicos", "sistemas-selagem", "protetores-mancal", "buchas-hidroespelidoras", "acoplamentos-flexiveis", "juntas-flexiveis-ptfe", "gaxetas"].map((slug) => (
+                  {["selos-mecanicos", "sistemas-selagem", "protetores-mancal", "buchas-hidroexpelidoras", "acoplamentos-flexiveis", "juntas-flexiveis-ptfe", "gaxetas"].map((slug) => (
                     <Link
                       key={slug}
                       href={`/produtos/${slug}`}
@@ -177,7 +177,7 @@ export default function Navbar() {
                 ref={mobileDropdownRef}
                 className="mt-2 pl-4 flex flex-col gap-3"
               >
-                {["selos-mecanicos", "sistemas-selagem", "protetores-mancal", "buchas-hidroespelidoras", "acoplamentos-flexiveis", "juntas-flexiveis-ptfe", "gaxetas"].map((slug) => (
+                {["selos-mecanicos", "sistemas-selagem", "protetores-mancal", "buchas-hidroexpelidoras", "acoplamentos-flexiveis", "juntas-flexiveis-ptfe", "gaxetas"].map((slug) => (
                   <Link
                     key={slug}
                     href={`/produtos/${slug}`}

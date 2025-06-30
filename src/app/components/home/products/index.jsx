@@ -22,10 +22,10 @@ const ProductsSection = () => {
       alt: "Protetor de mancal LTEC da MAS Produtos, aplicado na vedação de eixos e prevenção de entrada de contaminantes"
     },
     {
-      title: "Buchas Hidroespelidoras",
-      link: "/produtos/buchas-hidroespelidoras",
-      image: "/produtos/bucha-hidroespelidora.png",
-      alt: "Bucha hidroespelidora industrial, substitui anéis de gaxeta e oferece maior vida útil e estanqueidade"
+      title: "Buchas Hidroexpelidoras",
+      link: "/produtos/buchas-hidroexpelidoras",
+      image: "/produtos/bucha-hidroexpelidora.png",
+      alt: "Bucha hidroexpelidora industrial, substitui anéis de gaxeta e oferece maior vida útil e estanqueidade"
     },
     {
       title: "Acoplamentos Flexíveis",

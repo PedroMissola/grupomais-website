@@ -269,7 +269,7 @@ export const produtos = [
       },
       {
         tipo: "paragrafo",
-        texto: "Fabricados em inox/polímero, totalmente anticentelhante, eliminam vazamentos de óleo e graxa, impedem a entrada de resíduos contaminantes."
+        texto: "Fabricados em inox/polímero ou inox/bronze, totalmente anticentelhante, eliminam vazamentos de óleo e graxa, impedem a entrada de resíduos contaminantes."
       },
       {
         tipo: "titulo",
@@ -312,10 +312,10 @@ export const produtos = [
     ]
   },
   {
-    slug: "bucha-hidroespelidora",
-    nome: "Buchas Hidroespelidoras",
+    slug: "bucha-hidroexpelidora",
+    nome: "Buchas Hidroexpelidoras",
     descricao: "Sistema de vedação para caixa de gaxetas, substituindo anéis tradicionais.",
-    imagem: "/produtos/bucha-hidroespelidora.png",
+    imagem: "/produtos/bucha-hidroexpelidora.png",
     conteudo: [
       {
         tipo: "paragrafo",
@@ -323,7 +323,7 @@ export const produtos = [
       },
       {
         tipo: "paragrafo",
-        texto: "Projetada para realizar um feixe colone da água de selagem, realizando uma barreira contra os abrasivos, direcionando e otimizando o fluxo da água de selagem."
+        texto: "Projetada para realizar um efeito ciclone da água de selagem, realizando uma barreira contra os abrasivos, direcionando e otimizando o fluxo da água de selagem."
       },
       {
         tipo: "titulo",
@@ -332,16 +332,16 @@ export const produtos = [
       {
         tipo: "lista",
         itens: [
-          "Bucha Hidroespelidora: Em polímero Auto Lubrificante VCNT, NÃO absorve líquidos, mantendo o dimensional, possui alta resistência a abrasão, temperatura de trabalho de até 100°C, baixo coeficiente de atrito 0,11 e rotação de até 4000 rpm.",
+          "Bucha Hidroexpelidora: Em polímero Auto Lubrificante VCNT, NÃO absorve líquidos, mantendo o dimensional, possui alta resistência a abrasão, temperatura de trabalho de até 100°C, baixo coeficiente de atrito 0,11 e rotação de até 4000 rpm.",
           "Cordão de gaxeta trançada GTK 1002: trançada de Aramida com lubrificante, resistente a abrasão, velocidade periférica de 25m/s, temperatura 280°C e pressões até 25 Bar.",
           "Cordões de gaxetas trançadas, modelo GTC 1000: trançada de carbono expandido flexível de alta pureza e reforçada com fios de grafite em fibra de alta resistência, temperatura de até 500°C, velocidade periférica de até 22,8m/s, pressões de até 25Bar."
         ]
       }
     ],
     imagens: [
-      "/outros/bucha-hidroespelidora-1.jpg",
-      "/outros/bucha-hidroespelidora-2.jpg",
-      "/outros/bucha-hidroespelidora-3.jpg"
+      "/outros/bucha-hidroexpelidora-1.jpg",
+      "/outros/bucha-hidroexpelidora-2.jpg",
+      "/outros/bucha-hidroexpelidora-3.jpg"
     ]
   },
   {
@@ -768,7 +768,7 @@ export const produtos = [
       {
         tipo: "lista",
         itens: [
-          "Aumenta vida útil dos selos mecânicos em 30-40%",
+          "Aumenta vida útil dos selos mecânicos",
           "Previne degradação térmica de fluidos de selagem",
           "Reduz custos de manutenção corretiva",
           "Compatível com óleos, glicóis e fluidos sintéticos"

@@ -107,7 +107,7 @@ const Footer = () => {
                 { name: "Selos Mecânicos", link: "/produtos/selos-mecanicos" },
                 { name: "Sistemas de Selagem", link: "/produtos/sistemas-selagem" },
                 { name: "Protetores de Mancal", link: "/produtos/protetores-mancal" },
-                { name: "Buchas Hidroespelhadoras", link: "/produtos/buchas-hidroespelidoras" },
+                { name: "Buchas Hidroexpelidoras", link: "/produtos/buchas-hidroexpelidoras" },
                 { name: "Acoplamentos Flexíveis", link: "/produtos/acoplamentos-flexiveis" },
                 { name: "Juntas Flexíveis PTFE", link: "/produtos/juntas-flexiveis-ptfe" },
                 { name: "Gaxetas", link: "/produtos/gaxetas" }

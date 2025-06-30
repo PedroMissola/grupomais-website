@@ -34,7 +34,7 @@ export default function SelesMecanicosPage() {
                     <ProductCard
                         link="/produtos/selo-mecanico-mm"
                         name="Modelo MM"
-                        description="Múltiplas molas, vedação robusta, uso independente."
+                        description="Múltiplas molas, vedação robusta, uso independente do sentido de rotação do equipamento"
                         image="/produtos/selo-mecanico-mm.png"
                     />
                     <ProductCard
@@ -58,25 +58,25 @@ export default function SelesMecanicosPage() {
                     <ProductCard
                         link="/produtos/selo-cartucho-mtec-simples"
                         name="MTEC - Simples"
-                        description="Cartucho simples, fácil instalação, múltiplas molas protegidas."
+                        description="Cartucho simples, balanceado, fácil instalação, múltiplas molas protegidas."
                         image="/produtos/selo-mecanico-mtec-simples.png"
                     />
                     <ProductCard
                         link="/produtos/selo-cartucho-mtec-duplo"
                         name="MTEC - Duplo"
-                        description="Cartucho duplo, dupla vedação, montagem simplificada."
+                        description="Cartucho duplo, balanceado, dupla vedação, fácil instalação com multiplas molas protegidas"
                         image="/produtos/selo-mecanico-mtec-duplo.png"
                     />
                     <ProductCard
                         link="/produtos/selo-cartucho-cfm"
                         name="CFM (Simples ou Duplo)"
-                        description="Fole metálico, alta temperatura, vedação robusta e segura."
+                        description="Cartucho de fole metálico para aplicação em alta temperatura, vedação robusta e segura."
                         image="/produtos/selo-mecanico-cfm.png"
                     />
                     <ProductCard
                         link="/produtos/selo-cartucho-mtec-reator"
                         name="MTEC R ESP (Simples/Duplo)"
-                        description="Para reatores e agitadores, com ou sem rolamento."
+                        description="Para reatores e agitadores, pode ser fornecido com ou sem rolamento."
                         image="/produtos/selo-mecanico-mtec-r-esp-duplo-flange-refrigerada.png"
                     />
                 </section>
